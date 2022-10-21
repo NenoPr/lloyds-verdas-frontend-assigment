@@ -47,12 +47,6 @@ export default {
     "file": "offer-full.3c6a0762.png",
     "src": "assets/offer-full.png"
   },
-  "assets/kill-stroj-stroll.jpg": {
-    "resourceType": "image",
-    "mimeType": "image/jpeg",
-    "file": "kill-stroj-stroll.58bdeff7.jpg",
-    "src": "assets/kill-stroj-stroll.jpg"
-  },
   "assets/tablet.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
@@ -64,6 +58,12 @@ export default {
     "mimeType": "image/jpeg",
     "file": "Group-7.7ba3bf5f.jpg",
     "src": "assets/Group-7.jpg"
+  },
+  "assets/kill-stroj-stroll.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "kill-stroj-stroll.58bdeff7.jpg",
+    "src": "assets/kill-stroj-stroll.jpg"
   },
   "assets/Group-6.jpg": {
     "resourceType": "image",
