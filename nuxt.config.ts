@@ -2,4 +2,8 @@
 
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
+  target: 'static',
+  router: {
+    base: '/lloyds-verdas-frontend-assigment/'
+  }
 });

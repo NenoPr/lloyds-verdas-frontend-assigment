@@ -5,11 +5,13 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.0.0",
     "nuxt": "3.0.0-rc.12",
+    "push-dir": "^0.4.1",
     "vue-i18n": "^9.2.2"
   },
   "dependencies": {
