@@ -47,17 +47,17 @@ const client_manifest = {
     "file": "offer-full.3c6a0762.png",
     "src": "assets/offer-full.png"
   },
-  "assets/tablet.jpg": {
-    "resourceType": "image",
-    "mimeType": "image/jpeg",
-    "file": "tablet.1b2e4670.jpg",
-    "src": "assets/tablet.jpg"
-  },
   "assets/kill-stroj-stroll.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
     "file": "kill-stroj-stroll.58bdeff7.jpg",
     "src": "assets/kill-stroj-stroll.jpg"
+  },
+  "assets/tablet.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "tablet.1b2e4670.jpg",
+    "src": "assets/tablet.jpg"
   },
   "assets/Group-7.jpg": {
     "resourceType": "image",
@@ -249,15 +249,15 @@ const client_manifest = {
     "file": "error-404.18ced855.css",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
   },
-  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
-    "resourceType": "style",
-    "file": "error-500.e60962de.css",
-    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
-  },
   "pages/index.css": {
     "resourceType": "style",
     "file": "index.77601b49.css",
     "src": "pages/index.css"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
+    "resourceType": "style",
+    "file": "error-500.e60962de.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
   },
   "pages/en/index.css": {
     "resourceType": "style",
