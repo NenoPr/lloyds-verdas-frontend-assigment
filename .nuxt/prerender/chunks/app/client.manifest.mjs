@@ -1,80 +1,80 @@
 const client_manifest = {
-  "slike-vedras/instagram-logo-svgrepo-com.svg": {
-    "resourceType": "image",
-    "mimeType": "image/svg+xml",
-    "file": "instagram-logo-svgrepo-com.7c34ad32.svg",
-    "src": "slike-vedras/instagram-logo-svgrepo-com.svg"
-  },
-  "slike-vedras/Group-4.svg": {
+  "assets/Group-4.svg": {
     "resourceType": "image",
     "mimeType": "image/svg+xml",
     "file": "Group-4.c841a4a7.svg",
-    "src": "slike-vedras/Group-4.svg"
+    "src": "assets/Group-4.svg"
   },
-  "slike-vedras/facebook-svgrepo-com.svg": {
+  "assets/instagram-logo-svgrepo-com.svg": {
+    "resourceType": "image",
+    "mimeType": "image/svg+xml",
+    "file": "instagram-logo-svgrepo-com.7c34ad32.svg",
+    "src": "assets/instagram-logo-svgrepo-com.svg"
+  },
+  "assets/facebook-svgrepo-com.svg": {
     "resourceType": "image",
     "mimeType": "image/svg+xml",
     "file": "facebook-svgrepo-com.62df866d.svg",
-    "src": "slike-vedras/facebook-svgrepo-com.svg"
+    "src": "assets/facebook-svgrepo-com.svg"
   },
-  "slike-vedras/linkedin-logo-svgrepo-com.svg": {
+  "assets/linkedin-logo-svgrepo-com.svg": {
     "resourceType": "image",
     "mimeType": "image/svg+xml",
     "file": "linkedin-logo-svgrepo-com.6f5531dc.svg",
-    "src": "slike-vedras/linkedin-logo-svgrepo-com.svg"
+    "src": "assets/linkedin-logo-svgrepo-com.svg"
   },
-  "slike-vedras/UVD-Robots-logo-tagline-black-website.png": {
+  "assets/UVD-Robots-logo-tagline-black-website.png": {
     "resourceType": "image",
     "mimeType": "image/png",
     "file": "UVD-Robots-logo-tagline-black-website.250d5fde.png",
-    "src": "slike-vedras/UVD-Robots-logo-tagline-black-website.png"
+    "src": "assets/UVD-Robots-logo-tagline-black-website.png"
   },
-  "slike-vedras/boston-medical-logo-color-jpg.png": {
+  "assets/boston-medical-logo-color-jpg.png": {
     "resourceType": "image",
     "mimeType": "image/png",
     "file": "boston-medical-logo-color-jpg.6a865f1d.png",
-    "src": "slike-vedras/boston-medical-logo-color-jpg.png"
+    "src": "assets/boston-medical-logo-color-jpg.png"
   },
-  "slike-vedras/kill-stroj-full.png": {
+  "assets/kill-stroj-full.png": {
     "resourceType": "image",
     "mimeType": "image/png",
     "file": "kill-stroj-full.f4044d42.png",
-    "src": "slike-vedras/kill-stroj-full.png"
+    "src": "assets/kill-stroj-full.png"
   },
-  "slike-vedras/offer-full.png": {
+  "assets/offer-full.png": {
     "resourceType": "image",
     "mimeType": "image/png",
     "file": "offer-full.3c6a0762.png",
-    "src": "slike-vedras/offer-full.png"
+    "src": "assets/offer-full.png"
   },
-  "slike-vedras/tablet.jpg": {
+  "assets/tablet.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
     "file": "tablet.1b2e4670.jpg",
-    "src": "slike-vedras/tablet.jpg"
+    "src": "assets/tablet.jpg"
   },
-  "slike-vedras/Group-7.jpg": {
+  "assets/Group-7.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
     "file": "Group-7.7ba3bf5f.jpg",
-    "src": "slike-vedras/Group-7.jpg"
+    "src": "assets/Group-7.jpg"
   },
-  "slike-vedras/kill-stroj-stroll.jpg": {
+  "assets/kill-stroj-stroll.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
     "file": "kill-stroj-stroll.58bdeff7.jpg",
-    "src": "slike-vedras/kill-stroj-stroll.jpg"
+    "src": "assets/kill-stroj-stroll.jpg"
   },
-  "slike-vedras/Group-6.jpg": {
+  "assets/Group-6.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
     "file": "Group-6.129fa9ed.jpg",
-    "src": "slike-vedras/Group-6.jpg"
+    "src": "assets/Group-6.jpg"
   },
   "node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
-    "file": "entry.59db4a86.js",
+    "file": "entry.e5b16d87.js",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -90,8 +90,8 @@ const client_manifest = {
       "kill-stroj-stroll.58bdeff7.jpg"
     ]
   },
-  "entry.9ff9f88c.css": {
-    "file": "entry.9ff9f88c.css",
+  "entry.585982c4.css": {
+    "file": "entry.585982c4.css",
     "resourceType": "style"
   },
   "Group-6.129fa9ed.jpg": {
@@ -122,7 +122,7 @@ const client_manifest = {
   "virtual:nuxt:/home/neno/WebProjects/lloyds-verdas-frontend-assigment/.nuxt/error-component.mjs": {
     "resourceType": "script",
     "module": true,
-    "file": "error-component.305ca722.js",
+    "file": "error-component.0d2a2890.js",
     "src": "virtual:nuxt:/home/neno/WebProjects/lloyds-verdas-frontend-assigment/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -136,12 +136,12 @@ const client_manifest = {
   "pages/en/index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "index.4c5a5ad4.js",
+    "file": "index.8d95cfd6.js",
     "src": "pages/en/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_kill-stroj-full.f01312fd.js"
+      "_kill-stroj-full.4c4c4e5a.js"
     ],
     "css": []
   },
@@ -149,10 +149,10 @@ const client_manifest = {
     "file": "index.5a618f36.css",
     "resourceType": "style"
   },
-  "_kill-stroj-full.f01312fd.js": {
+  "_kill-stroj-full.4c4c4e5a.js": {
     "resourceType": "script",
     "module": true,
-    "file": "kill-stroj-full.f01312fd.js",
+    "file": "kill-stroj-full.4c4c4e5a.js",
     "assets": [
       "Group-4.c841a4a7.svg",
       "instagram-logo-svgrepo-com.7c34ad32.svg",
@@ -201,12 +201,12 @@ const client_manifest = {
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "index.f00c6659.js",
+    "file": "index.2f6b38a0.js",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_kill-stroj-full.f01312fd.js"
+      "_kill-stroj-full.4c4c4e5a.js"
     ],
     "css": []
   },
@@ -217,7 +217,7 @@ const client_manifest = {
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "error-404.c7291dd5.js",
+    "file": "error-404.3d49f82e.js",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -232,7 +232,7 @@ const client_manifest = {
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "error-500.6569bdc6.js",
+    "file": "error-500.2b25d948.js",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -244,35 +244,35 @@ const client_manifest = {
     "file": "error-500.e60962de.css",
     "resourceType": "style"
   },
+  "pages/en/index.css": {
+    "resourceType": "style",
+    "file": "index.5a618f36.css",
+    "src": "pages/en/index.css"
+  },
   "pages/index.css": {
     "resourceType": "style",
     "file": "index.77601b49.css",
     "src": "pages/index.css"
-  },
-  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
-    "resourceType": "style",
-    "file": "error-500.e60962de.css",
-    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
     "resourceType": "style",
     "file": "error-404.18ced855.css",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
   },
-  "pages/en/index.css": {
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
     "resourceType": "style",
-    "file": "index.5a618f36.css",
-    "src": "pages/en/index.css"
+    "file": "error-500.e60962de.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
   },
   "node_modules/nuxt/dist/app/entry.css": {
     "resourceType": "style",
-    "file": "entry.9ff9f88c.css",
+    "file": "entry.585982c4.css",
     "src": "node_modules/nuxt/dist/app/entry.css"
   },
   "entryCSS": {
     "file": "",
     "css": [
-      "entry.9ff9f88c.css"
+      "entry.585982c4.css"
     ]
   }
 };
