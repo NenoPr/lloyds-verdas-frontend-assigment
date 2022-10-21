@@ -61,7 +61,7 @@
 }
 
 .sectionTwo-img-container {
-  background-image: url("../../slike-vedras/offer-full.png");
+  background-image: url("../../assets/offer-full.png");
   background-size: cover;
   background-position: center;
   min-height: 574px;

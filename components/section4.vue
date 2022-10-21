@@ -20,7 +20,7 @@
 }
 
 .sectionFour-img-container {
-  background-image: url("../slike-vedras/Group-7.jpg");
+  background-image: url("../assets/Group-7.jpg");
   background-size: cover;
   height: 631px;
   width: 50%;

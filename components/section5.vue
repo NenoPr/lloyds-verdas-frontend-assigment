@@ -63,7 +63,7 @@
 }
 
 .sectionFive-img-container {
-  background-image: url("../slike-vedras/kill-stroj-stroll.jpg");
+  background-image: url("../assets/kill-stroj-stroll.jpg");
   background-size: cover;
   height: 64vh;
   width: 30vw;

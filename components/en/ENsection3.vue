@@ -49,7 +49,7 @@
 }
 
 .sectionThree-img-container {
-  background-image: url("../../slike-vedras/tablet.jpg");
+  background-image: url("../../assets/tablet.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

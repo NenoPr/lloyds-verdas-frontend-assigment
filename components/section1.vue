@@ -14,12 +14,12 @@
         životu.
       </p>
       <img
-        src="../slike-vedras/UVD-Robots-logo-tagline-black-website.png"
+        src="../assets/UVD-Robots-logo-tagline-black-website.png"
         alt=""
         class="sectionOne-info-img w-[300px] h-[160px]"
       />
       <img
-        src="../slike-vedras/boston-medical-logo-color-jpg.png"
+        src="../assets/boston-medical-logo-color-jpg.png"
         alt=""
         class="sectionOne-info-img w-[360px] h-[64px]"
       />
@@ -30,7 +30,7 @@
     </div>
     <div class="sectionOne-img-container image-scroll-ani">
       <img
-        src="../slike-vedras/kill-stroj-full.png"
+        src="../assets/kill-stroj-full.png"
         alt="kill stroj"
         class="killer-robot"
       />

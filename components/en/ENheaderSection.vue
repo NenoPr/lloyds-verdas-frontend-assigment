@@ -20,7 +20,7 @@
       </nuxt-link>
     </div>
     <div class="header-content">
-      <img src="../../slike-vedras/Group-4.svg" alt="" class="header-img" />
+      <img src="../../assets/Group-4.svg" alt="" class="header-img" />
       <div class="header-line"></div>
       <h1 class="header-h1 text-scroll-ani">ON HOLD</h1>
       <div class="header-socialMedia">
@@ -32,7 +32,7 @@
         >
           <img
             class="instagram"
-            src="../../slike-vedras/instagram-logo-svgrepo-com.svg"
+            src="../../assets/instagram-logo-svgrepo-com.svg"
             alt=""
           />
         </a>
@@ -45,7 +45,7 @@
         >
           <img
             class="facebook"
-            src="../../slike-vedras/facebook-svgrepo-com.svg"
+            src="../../assets/facebook-svgrepo-com.svg"
             alt=""
           />
         </a>
@@ -58,7 +58,7 @@
         >
           <img
             class="linkedin"
-            src="../../slike-vedras/linkedin-logo-svgrepo-com.svg"
+            src="../../assets/linkedin-logo-svgrepo-com.svg"
             alt=""
           />
         </a>
@@ -74,7 +74,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  background-image: url("../../slike-vedras/Group-6.jpg");
+  background-image: url("../../assets/Group-6.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
