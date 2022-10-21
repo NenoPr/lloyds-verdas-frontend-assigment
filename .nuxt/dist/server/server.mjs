@@ -1,0 +1,1 @@
+export { default } from "file:///home/neno/WebProjects/lloyds-verdas-frontend-assigment/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
