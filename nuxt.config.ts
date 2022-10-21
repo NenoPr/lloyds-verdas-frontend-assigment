@@ -5,5 +5,7 @@ export default defineNuxtConfig({
   target: 'static',
   router: {
     base: '/lloyds-verdas-frontend-assigment/'
-  }
+  },
+  publicPath: '',
+  baseUrl: ''
 });
