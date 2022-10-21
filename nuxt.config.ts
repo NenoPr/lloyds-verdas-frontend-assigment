@@ -5,8 +5,5 @@ export default defineNuxtConfig({
   target: 'static',
   router: {
     base: '/lloyds-verdas-frontend-assigment/'
-  },
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/lloyds-verdas-frontend-assigment/'
-    : '/'
+  }
 });

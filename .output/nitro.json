@@ -1,5 +1,5 @@
 {
-  "date": "2022-10-21T20:34:05.080Z",
+  "date": "2022-10-21T20:37:45.759Z",
   "preset": "nitro-prerender",
   "commands": {
     "preview": "npx serve -s ./public"
