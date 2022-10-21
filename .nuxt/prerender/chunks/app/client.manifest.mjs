@@ -1,10 +1,4 @@
 const client_manifest = {
-  "assets/Group-4.svg": {
-    "resourceType": "image",
-    "mimeType": "image/svg+xml",
-    "file": "Group-4.c841a4a7.svg",
-    "src": "assets/Group-4.svg"
-  },
   "assets/instagram-logo-svgrepo-com.svg": {
     "resourceType": "image",
     "mimeType": "image/svg+xml",
@@ -16,6 +10,12 @@ const client_manifest = {
     "mimeType": "image/svg+xml",
     "file": "facebook-svgrepo-com.62df866d.svg",
     "src": "assets/facebook-svgrepo-com.svg"
+  },
+  "assets/Group-4.svg": {
+    "resourceType": "image",
+    "mimeType": "image/svg+xml",
+    "file": "Group-4.c841a4a7.svg",
+    "src": "assets/Group-4.svg"
   },
   "assets/linkedin-logo-svgrepo-com.svg": {
     "resourceType": "image",
@@ -47,11 +47,11 @@ const client_manifest = {
     "file": "offer-full.3c6a0762.png",
     "src": "assets/offer-full.png"
   },
-  "assets/tablet.jpg": {
+  "assets/kill-stroj-stroll.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
-    "file": "tablet.1b2e4670.jpg",
-    "src": "assets/tablet.jpg"
+    "file": "kill-stroj-stroll.58bdeff7.jpg",
+    "src": "assets/kill-stroj-stroll.jpg"
   },
   "assets/Group-7.jpg": {
     "resourceType": "image",
@@ -59,11 +59,11 @@ const client_manifest = {
     "file": "Group-7.7ba3bf5f.jpg",
     "src": "assets/Group-7.jpg"
   },
-  "assets/kill-stroj-stroll.jpg": {
+  "assets/tablet.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
-    "file": "kill-stroj-stroll.58bdeff7.jpg",
-    "src": "assets/kill-stroj-stroll.jpg"
+    "file": "tablet.1b2e4670.jpg",
+    "src": "assets/tablet.jpg"
   },
   "assets/Group-6.jpg": {
     "resourceType": "image",
@@ -249,11 +249,6 @@ const client_manifest = {
     "file": "index.5a618f36.css",
     "src": "pages/en/index.css"
   },
-  "pages/index.css": {
-    "resourceType": "style",
-    "file": "index.77601b49.css",
-    "src": "pages/index.css"
-  },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
     "resourceType": "style",
     "file": "error-404.18ced855.css",
@@ -263,6 +258,11 @@ const client_manifest = {
     "resourceType": "style",
     "file": "error-500.e60962de.css",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
+  },
+  "pages/index.css": {
+    "resourceType": "style",
+    "file": "index.77601b49.css",
+    "src": "pages/index.css"
   },
   "node_modules/nuxt/dist/app/entry.css": {
     "resourceType": "style",
