@@ -44,7 +44,7 @@
 <script setup></script>
 
 <style lang="scss" scoped>
-@import "~/components/styles/animations.css";
+@import '~/components/styles/animations.css';
 .sectionOne {
   display: flex;
   justify-items: center;
@@ -90,10 +90,6 @@
   flex: 50%;
 }
 .killer-robot {
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  height: 520px;
   bottom: -50px;
   z-index: 5;
 }

@@ -75,16 +75,18 @@
 
 @media (max-width: 1100px) {
   .sectionThree {
-    flex-wrap: wrap;
     flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
     padding: 50px 20px;
     font-size: 16px;
   }
 
   .sectionThree-img-container {
     min-height: 452px;
-    height: 40vh;
+    min-height: 40vh;
     max-width: 80vw;
+    width: 100%;
   }
 
   .sectionThree-info-container {
@@ -92,6 +94,18 @@
     max-width: 80vw;
     width: 100%;
     height: auto;
+  }
+}
+
+@media (max-width: 400px) { 
+
+  .sectionThree-img-container {
+    padding: 1rem;
+  }
+
+  .sectionThree-info-container {
+    padding: 1rem;
+    margin: 1rem;
   }
 }
 </style>

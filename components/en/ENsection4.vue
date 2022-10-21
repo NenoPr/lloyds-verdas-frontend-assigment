@@ -14,7 +14,7 @@
 <script setup></script>
 
 <style lang="scss" scoped>
-@import "~/components/styles/animations.css";
+@import '~/components/styles/animations.css';
 .sectionFour {
   display: flex;
   font-size: 42px;
@@ -43,7 +43,7 @@
   .sectionFour {
     flex-direction: column-reverse;
     flex-wrap: wrap;
-    font-size: 25px;
+    font-size: 1.25rem;
   }
 
   .sectionFour-img-container {

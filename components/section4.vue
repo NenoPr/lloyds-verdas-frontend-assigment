@@ -42,7 +42,7 @@
   .sectionFour {
     flex-direction: column-reverse;
     flex-wrap: wrap;
-    font-size: 25px;
+    font-size: 1.25rem;
   }
 
   .sectionFour-img-container {

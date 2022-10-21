@@ -90,10 +90,6 @@
   flex: 50%;
 }
 .killer-robot {
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  height: 520px;
   bottom: -50px;
   z-index: 5;
 }

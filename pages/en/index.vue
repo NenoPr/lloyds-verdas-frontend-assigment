@@ -11,7 +11,7 @@
   </template>
   
   <script>
-  import { reveal } from "~/components/Animations.vue";
+  import { reveal } from "../../components/Animations.vue";
   if (process.client) {
     window.addEventListener("scroll", reveal);
     reveal()

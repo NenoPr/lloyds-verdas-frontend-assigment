@@ -43,6 +43,6 @@ export default {
   width: 100%;
   min-height: 100vh;
   font-family: "Titillium Web", sans-serif;
-  transition: all 0.5s;
+  transition: all 1s cubic-bezier(.36,.69,.3,.64);
 }
 </style>

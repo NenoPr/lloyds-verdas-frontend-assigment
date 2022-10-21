@@ -30,6 +30,8 @@
 
 <script setup></script>
 
+<script setup></script>
+
 <style lang="scss" scoped>
 @import "~/components/styles/animations.css";
 .sectionFive {
@@ -59,6 +61,7 @@
   box-shadow: 0 2px 32px 0 rgb(0 0 0 / 14%);
   padding: 30px;
   margin-right: 30px;
+  flex: 50%;
 }
 
 .sectionFive-img-container {
@@ -67,13 +70,14 @@
   height: 64vh;
   width: 30vw;
   background-position-y: 80%;
+  flex: 50%;
 }
 
 // Max Width
 
 @media (max-width: 1000px) {
   .sectionFive {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     gap: 3rem;
@@ -100,7 +104,7 @@
   .sectionFive {
     align-content: center;
     gap: 2rem;
-    padding: 20px 10px;
+    padding: 1.25rem .75rem;
   }
 
   .sectionFive-info-container {

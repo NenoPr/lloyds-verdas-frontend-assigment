@@ -25,32 +25,6 @@
   transition: all .5s;
 }
 
-// Min Width
-
-// @media (min-width: 400px) {
-//   .footer {
-//     background-color: rgba(0, 0, 255, 0.2);
-//   }
-// }
-
-// @media (min-width: 800px) {
-//   .footer {
-//     background-color: rgba(255, 0, 0, 0.2);
-//   }
-// }
-
-// @media (min-width: 1280px) {
-//   .footer {
-//     background-color: rgba(255, 255, 0, 0.2);
-//   }
-// }
-
-// @media (min-width: 1920px) {
-//   .footer {
-//     background-color: rgba(0, 128, 0, 0.2);
-//   }
-// }
-
 // Max Width
 
 @media (max-width: 1000px) {
@@ -58,7 +32,7 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    padding: 40px 20px;
+    padding: 2rem 1rem;
     font-size: 25px;
     line-height: 32px;
   }
