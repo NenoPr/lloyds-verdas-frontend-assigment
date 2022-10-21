@@ -41,6 +41,12 @@ export default {
     "file": "kill-stroj-full.f4044d42.png",
     "src": "assets/kill-stroj-full.png"
   },
+  "assets/tablet.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "tablet.1b2e4670.jpg",
+    "src": "assets/tablet.jpg"
+  },
   "assets/offer-full.png": {
     "resourceType": "image",
     "mimeType": "image/png",
@@ -52,12 +58,6 @@ export default {
     "mimeType": "image/jpeg",
     "file": "kill-stroj-stroll.58bdeff7.jpg",
     "src": "assets/kill-stroj-stroll.jpg"
-  },
-  "assets/tablet.jpg": {
-    "resourceType": "image",
-    "mimeType": "image/jpeg",
-    "file": "tablet.1b2e4670.jpg",
-    "src": "assets/tablet.jpg"
   },
   "assets/Group-7.jpg": {
     "resourceType": "image",
@@ -74,7 +74,7 @@ export default {
   "node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
-    "file": "entry.e5b16d87.js",
+    "file": "entry.8e0900ad.js",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -90,8 +90,8 @@ export default {
       "kill-stroj-stroll.58bdeff7.jpg"
     ]
   },
-  "entry.585982c4.css": {
-    "file": "entry.585982c4.css",
+  "entry.3801684b.css": {
+    "file": "entry.3801684b.css",
     "resourceType": "style"
   },
   "Group-6.129fa9ed.jpg": {
@@ -122,7 +122,7 @@ export default {
   "virtual:nuxt:/home/neno/WebProjects/lloyds-verdas-frontend-assigment/.nuxt/error-component.mjs": {
     "resourceType": "script",
     "module": true,
-    "file": "error-component.0d2a2890.js",
+    "file": "error-component.b43ec0f6.js",
     "src": "virtual:nuxt:/home/neno/WebProjects/lloyds-verdas-frontend-assigment/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -136,7 +136,7 @@ export default {
   "pages/en/index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "index.8d95cfd6.js",
+    "file": "index.6f77dd68.js",
     "src": "pages/en/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -201,7 +201,7 @@ export default {
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "index.2f6b38a0.js",
+    "file": "index.dac66c6e.js",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -217,7 +217,7 @@ export default {
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "error-404.3d49f82e.js",
+    "file": "error-404.f485657d.js",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -232,7 +232,7 @@ export default {
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "error-500.2b25d948.js",
+    "file": "error-500.0d8b65ba.js",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -244,35 +244,35 @@ export default {
     "file": "error-500.e60962de.css",
     "resourceType": "style"
   },
-  "pages/index.css": {
-    "resourceType": "style",
-    "file": "index.77601b49.css",
-    "src": "pages/index.css"
-  },
-  "pages/en/index.css": {
-    "resourceType": "style",
-    "file": "index.5a618f36.css",
-    "src": "pages/en/index.css"
-  },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
     "resourceType": "style",
     "file": "error-404.18ced855.css",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
+  },
+  "pages/index.css": {
+    "resourceType": "style",
+    "file": "index.77601b49.css",
+    "src": "pages/index.css"
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
     "resourceType": "style",
     "file": "error-500.e60962de.css",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
   },
+  "pages/en/index.css": {
+    "resourceType": "style",
+    "file": "index.5a618f36.css",
+    "src": "pages/en/index.css"
+  },
   "node_modules/nuxt/dist/app/entry.css": {
     "resourceType": "style",
-    "file": "entry.585982c4.css",
+    "file": "entry.3801684b.css",
     "src": "node_modules/nuxt/dist/app/entry.css"
   },
   "entryCSS": {
     "file": "",
     "css": [
-      "entry.585982c4.css"
+      "entry.3801684b.css"
     ]
   }
 }
