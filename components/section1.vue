@@ -1,6 +1,6 @@
 <template>
   <section class="sectionOne">
-    <div class="sectionOne-info-container text-gray-default">
+    <div class="sectionOne-info-container text-gray-default text-scroll-ani">
       <p class="mt-12">
         U jeku trenutne situacije sa Covid-19, naša je “event” branša potpuno
         zaustavljena. Zaista teško predviđamo početak velikih okupljanja i
@@ -28,7 +28,7 @@
         UV-dezinfekcijskog robota tvrtke Blue Ocean Robotics.
       </p>
     </div>
-    <div class="sectionOne-img-container">
+    <div class="sectionOne-img-container image-scroll-ani">
       <img
         src="../slike-vedras/kill-stroj-full.png"
         alt="kill stroj"
@@ -44,10 +44,12 @@
 <script setup></script>
 
 <style lang="scss" scoped>
+@import '~/components/styles/animations.css';
 .sectionOne {
   display: flex;
   justify-items: center;
   align-items: center;
+  padding: 10px 12vw;
 }
 
 .sectionOne-info-container {
@@ -59,29 +61,25 @@
   flex: 50%;
 }
 
-.sectionOne-info-img {
-  transition: all 0.5s;
-}
-
 .sectionOne-info-2nd-para {
   max-width: 400px;
 }
 
 .sectionOne-infoPanel {
   position: relative;
-  bottom: 4rem;
+  bottom: 3rem;
   right: 4rem;
   z-index: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 336px;
-  height: 176px;
+  height: 160px;
   color: white;
   font-weight: 700;
   padding: 2rem;
   font-size: 24px;
-  transition: all 0.5s;
+  animation: 1.5s ease-out 0s 1 slideInPanel;
 }
 
 .sectionOne-img-container {
@@ -89,13 +87,29 @@
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  transition: all 0.5s;
   flex: 50%;
 }
 .killer-robot {
+  display: inline-block;
+  vertical-align: middle;
   position: relative;
+  height: 520px;
   bottom: -50px;
   z-index: 5;
+}
+
+@keyframes slideInPanel {
+  0% {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 // MIN
@@ -124,7 +138,8 @@
 @media (min-width: 1920px) {
   .sectionOne {
     // background-color: rgba(0, 128, 0, 0.200);
-    padding: 10px 10vw;
+    padding: 10px 12vw;
+    max-height: 700px;
   }
 }
 

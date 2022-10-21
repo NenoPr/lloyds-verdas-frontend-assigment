@@ -1,7 +1,7 @@
 <template>
   <section class="sectionThree text-gray-default">
-    <div class="sectionThree-img-container"></div>
-    <div class="sectionThree-info-container">
+    <div class="sectionThree-img-container image-scroll-ani hide"></div>
+    <div class="sectionThree-info-container text-scroll-ani">
       <h2 class="font-bold text-2xl md:text-4xl">#covidfree</h2>
       <p>
         Primjenom Ultraljubičastog svjetla, (ultravioletnog, UV-c), UVD-robot
@@ -19,6 +19,26 @@
 <script setup></script>
 
 <style lang="scss" scoped>
+@import '~/components/styles/animations.css';
+
+.slideInText {
+  animation: 1.5s ease-out 0s 1 slideInText;
+}
+
+@keyframes slideInText {
+  0% {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  40% {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 .sectionThree {
   display: flex;
   flex-direction: row;
@@ -50,32 +70,6 @@
   max-width: 695px;
   box-shadow: 0 2px 32px 0 rgb(0 0 0 / 14%);
 }
-
-// Min Width
-
-// @media (min-width: 400px) {
-//   .sectionThree {
-//     background-color: rgba(0, 0, 255, 0.200);
-//   }
-// }
-
-// @media (min-width: 800px) {
-//   .sectionThree {
-//     background-color: rgba(255, 0, 0, 0.200);
-//   }
-// }
-
-// @media (min-width: 1280px) {
-//   .sectionThree {
-//     background-color: rgba(255, 255, 0, 0.200);
-//   }
-// }
-
-// @media (min-width: 1920px) {
-//   .sectionThree {
-//     background-color: rgba(0, 128, 0, 0.200);
-//   }
-// }
 
 // Max Width
 

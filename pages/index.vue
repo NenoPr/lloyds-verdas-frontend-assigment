@@ -10,7 +10,14 @@
   </main>
 </template>
 
-<script setup></script>
+<script>
+import { reveal } from "../components/Animations.vue";
+if (process.client) {
+  window.addEventListener("scroll", reveal);
+  reveal()
+}
+
+</script>
 
 <style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700;900&display=swap");
@@ -21,6 +28,6 @@
   width: 100%;
   min-height: 100vh;
   font-family: "Titillium Web", sans-serif;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 </style>

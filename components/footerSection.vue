@@ -2,14 +2,16 @@
   <footer class="footer bg-blue-default text-4xl text-white">
     <p>Za više informacija pišite nam na mail:</p>
     <div>
-      <a class="font-bold" href="mailto:info@verdas.hr">info@vedras.hr</a>
+      <a class="font-bold hover:underline" href="mailto:info@verdas.hr">info@vedras.hr</a>
       ili nazovite broj
-      <a class="font-bold" href="tel:385989608920">+385 98 9608 920</a>
+      <a class="font-bold hover:underline" href="tel:385989608920">+385 98 9608 920</a>
     </div>
   </footer>
 </template>
 
-<script setup></script>
+<script setup>
+
+</script>
 
 <style lang="scss" scoped>
 .footer {

@@ -13,6 +13,7 @@
 <script setup></script>
 
 <style lang="scss" scoped>
+@import '~/components/styles/animations.css';
 .sectionFour {
   display: flex;
   font-size: 42px;
@@ -34,32 +35,6 @@
   height: 631px;
   padding: 50px;
 }
-
-// // Min Width
-
-// @media (min-width: 400px) {
-//   .sectionFour {
-//     background-color: rgba(0, 0, 255, 0.2);
-//   }
-// }
-
-// @media (min-width: 800px) {
-//   .sectionFour {
-//     background-color: rgba(255, 0, 0, 0.2);
-//   }
-// }
-
-// @media (min-width: 1280px) {
-//   .sectionFour {
-//     background-color: rgba(255, 255, 0, 0.2);
-//   }
-// }
-
-// @media (min-width: 1920px) {
-//   .sectionFour {
-//     background-color: rgba(0, 128, 0, 0.2);
-//   }
-// }
 
 // Max Width
 

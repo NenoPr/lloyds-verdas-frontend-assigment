@@ -23,28 +23,33 @@
         href="http://www.uvd-robots.com/"
         target="_blank"
         rel="noreferrer noopener"
-        class="mt-8 font-bold hover:underline text-base md:text-xl"
+        class="mt-8 font-bold hover:underline text-base md:text-[16px]"
         >Više detalja o UVD Robots</a
       >
     </div>
-    <div class="sectionTwo-img-container"></div>
+    <div class="sectionTwo-img-container image-scroll-ani hide"></div>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+
+</script>
 
 <style lang="scss" scoped>
+@import '~/components/styles/animations.css';
 .sectionTwo {
   display: flex;
   align-items: center;
   gap: 5vw;
   font-size: 30px;
-  padding: 80px 10vw;
+  padding: 80px 0;
+  padding-left: 10vw;
 }
 .sectionTwo-info-container {
   display: flex;
   flex-direction: column;
   flex: 50%;
+  font-size: 16px;
 }
 
 .sectionTwo-list {
@@ -61,41 +66,11 @@
   background-image: url("../slike-vedras/offer-full.png");
   background-size: cover;
   background-position: center;
-  transition: all 0.5s;
   min-height: 574px;
   max-width: 100%;
-  flex: 50%;
+  flex: 60%;
+  margin-right: 80px;
 }
-
-// // MIN
-
-// @media (min-width: 400px) {
-//   .sectionTwo {
-//     background-color: rgba(0, 0, 255, 0.2);
-//     padding: 0 30px;
-//   }
-// }
-
-// @media (min-width: 800px) {
-//   .sectionTwo {
-//     background-color: rgba(255, 0, 0, 0.2);
-//     padding: 10px 80px;
-//   }
-// }
-
-// @media (min-width: 1280px) {
-//   .sectionTwo {
-//     background-color: rgba(255, 255, 0, 0.2);
-//     padding: 10px 100px;
-//   }
-// }
-
-// @media (min-width: 1920px) {
-//   .sectionTwo {
-//     background-color: rgba(0, 128, 0, 0.2);
-//     padding: 10px 10vw;
-//   }
-// }
 
 // MAX
 
@@ -141,6 +116,4 @@
     min-height: 300px;
   }
 }
-
-
 </style>

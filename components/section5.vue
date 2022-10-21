@@ -1,6 +1,6 @@
 <template>
   <section class="sectionFive">
-    <div class="sectionFive-info-container">
+    <div class="sectionFive-info-container image-scroll-ani hide">
       <h2 class="font-bold text-gray-default text-2xl md:text-4xl">
         Naše tehničko osoblje spremno je u najkraćem mogućem roku izvršiti
         uslugu koja uključuje:
@@ -18,13 +18,14 @@
         PREUZMI BROŠURU
       </button>
     </div>
-    <div class="sectionFive-img-container"></div>
+    <div class="sectionFive-img-container text-scroll-ani hide"></div>
   </section>
 </template>
 
 <script setup></script>
 
 <style lang="scss" scoped>
+@import '~/components/styles/animations.css';
 .sectionFive {
   display: flex;
   justify-content: center;
@@ -63,32 +64,6 @@
   background-position-y: 80%;
 
 }
-
-// Min Width
-
-// @media (min-width: 400px) {
-//   .sectionFive {
-//     background-color: rgba(0, 0, 255, 0.2);
-//   }
-// }
-
-// @media (min-width: 800px) {
-//   .sectionFive {
-//     background-color: rgba(255, 0, 0, 0.2);
-//   }
-// }
-
-// @media (min-width: 1280px) {
-//   .sectionFive {
-//     background-color: rgba(255, 255, 0, 0.2);
-//   }
-// }
-
-// @media (min-width: 1920px) {
-//   .sectionFive {
-//     background-color: rgba(0, 128, 0, 0.2);
-//   }
-// }
 
 // Max Width
 

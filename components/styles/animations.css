@@ -1,0 +1,31 @@
+.hide {
+  opacity: 0;
+}
+
+.slideInText {
+  animation: 1.5s ease-out 0s 1 slideInText;
+}
+
+@keyframes slideInText {
+  0% {
+    transform: translateY(10%);
+    opacity: 0.25;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slideInImage {
+  animation: 1.5s ease-out 0s 1 slideInImage;
+}
+
+@keyframes slideInImage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

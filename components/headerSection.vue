@@ -2,20 +2,57 @@
   <section class="header">
     <div class="text-white xl:text-base md:text-xs header-contact">
       <span class="font-bold hidden sm:block">Kontaktirajte nas</span>
-      <span>info@verdas.hr</span>
-      <span>+385 98 9608 920</span>
-      <button class="font-bold">EN</button>
+      <a class="hover:underline hover:opacity-70" href="mailto:info@vedras.hr"
+        >info@verdas.hr</a
+      >
+      <a class="hover:underline hover:opacity-70" href="tel:385989608920"
+        >+385 98 9608 920</a
+      >
+      <button class="font-bold hover:underline hover:opacity-50">EN</button>
     </div>
     <div class="header-content">
       <img src="../slike-vedras/Group-4.svg" alt="" class="header-img" />
       <div class="header-line"></div>
-      <h1 class="header-h1">ON HOLD</h1>
+      <h1 class="header-h1 text-scroll-ani">ON HOLD</h1>
       <div class="header-socialMedia">
-        <div class="social-icon instagram"></div>
+        <a
+          href="https://www.instagram.com/vedrasgroup/?hl=en"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350"
+        >
+          <img
+            class="instagram"
+            src="../slike-vedras/instagram-logo-svgrepo-com.svg"
+            alt=""
+          />
+        </a>
 
-        <div class="social-icon facebook"></div>
+        <a
+          href="https://www.facebook.com/vedrasevents/"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350"
+        >
+          <img
+            class="facebook"
+            src="../slike-vedras/facebook-svgrepo-com.svg"
+            alt=""
+          />
+        </a>
 
-        <div class="social-icon linkedin"></div>
+        <a
+          href="https://www.linkedin.com/company/42940956/"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350"
+        >
+          <img
+            class="linkedin"
+            src="../slike-vedras/linkedin-logo-svgrepo-com.svg"
+            alt=""
+          />
+        </a>
       </div>
     </div>
   </section>
@@ -24,6 +61,7 @@
 <script setup></script>
 
 <style lang="scss" scoped>
+@import "~/components/styles/animations.css";
 .header {
   display: flex;
   flex-direction: column;
@@ -65,32 +103,33 @@
 
     .header-socialMedia {
       display: flex;
-      gap: 2vw;
+      gap: 20px;
     }
 
     .social-icon {
-      width: 30px;
-      height: 30px;
-      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 20px;
+      height: 20px;
       background-color: white;
-      background-position: center;
-      background-size: contain;
       border: 1px solid white;
       border-radius: 50%;
     }
 
     .instagram {
-      background-image: url("../slike-vedras/instagram-logo-thin-svgrepo-com.svg");
+      width: 60%;
+      height: 60%;
     }
 
     .facebook {
-      background-image: url("../slike-vedras/facebook-svgrepo-com.svg");
+      width: 60%;
+      height: 60%;
     }
 
     .linkedin {
-      background-image: url("../slike-vedras/linkedin-logo-svgrepo-com.svg");
-      background-position: center;
-      background-size: contain;
+      width: 60%;
+      height: 60%;
     }
   }
 }
