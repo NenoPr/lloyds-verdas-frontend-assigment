@@ -53,17 +53,17 @@ export default {
     "file": "kill-stroj-stroll.58bdeff7.jpg",
     "src": "assets/kill-stroj-stroll.jpg"
   },
-  "assets/Group-7.jpg": {
-    "resourceType": "image",
-    "mimeType": "image/jpeg",
-    "file": "Group-7.7ba3bf5f.jpg",
-    "src": "assets/Group-7.jpg"
-  },
   "assets/tablet.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
     "file": "tablet.1b2e4670.jpg",
     "src": "assets/tablet.jpg"
+  },
+  "assets/Group-7.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "Group-7.7ba3bf5f.jpg",
+    "src": "assets/Group-7.jpg"
   },
   "assets/Group-6.jpg": {
     "resourceType": "image",
