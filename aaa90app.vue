@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <main class="app">
     <Pages />
   </main>
@@ -15,4 +15,4 @@ import Pages from "./pages/index.vue";
   width: 100%;
   min-height: 100vh;
 }
-</style>
+</style> -->

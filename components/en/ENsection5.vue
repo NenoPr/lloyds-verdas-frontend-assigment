@@ -2,15 +2,15 @@
   <section class="sectionFive">
     <div class="sectionFive-info-container image-scroll-ani hide">
       <h2 class="font-bold text-gray-default text-2xl md:text-4xl">
-        Naše tehničko osoblje spremno je u najkraćem mogućem roku izvršiti
-        uslugu koja uključuje:
+        Our staff is ready to provide a service as soon as possible which
+        includes:
       </h2>
 
       <ul class="sectionFive-list text-gray-default">
-        <li>dopremu UV-dezinfekcijskog robota</li>
-        <li>mapiranje prostorija predviđenih za dezinfekciju</li>
-        <li>kontrolu rada tijekom dezinfekcije</li>
-        <li>otpremu UV-dezinfekcijskog robota</li>
+        <li>delivery of UV disinfection robot</li>
+        <li>mapping of the rooms intended for disinfection</li>
+        <li>control of operation during disinfection</li>
+        <li>collection of the UV disinfection robot</li>
       </ul>
       <a
         href="http://vedras.hr/download/Vedras_dezinfekcija_UVD_Robotima.pdf"
@@ -20,7 +20,7 @@
         <button
           class="mt-10 bg-blue-default w-[216px] h-[57px] p-4 text-white border-[1px] border-blue-default hover:bg-white hover:text-blue-default"
         >
-          PREUZMI BROŠURU
+          DOWNLOAD BROCHURE
         </button>
       </a>
     </div>
@@ -62,7 +62,7 @@
 }
 
 .sectionFive-img-container {
-  background-image: url("../slike-vedras/kill-stroj-stroll.jpg");
+  background-image: url("../../slike-vedras/kill-stroj-stroll.jpg");
   background-size: cover;
   height: 64vh;
   width: 30vw;

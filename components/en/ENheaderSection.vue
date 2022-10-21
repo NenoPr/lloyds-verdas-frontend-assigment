@@ -8,19 +8,19 @@
        <option value="hr">HR</option>
       </select>
     </form> -->
-      <span class="font-bold hidden sm:block">Kontaktirajte nas</span>
+      <span class="font-bold hidden sm:block">Contact us</span>
       <a class="hover:underline hover:opacity-70" href="mailto:info@vedras.hr"
         >info@verdas.hr</a
       >
       <a class="hover:underline hover:opacity-70" href="tel:385989608920"
         >+385 98 9608 920</a
       >
-      <nuxt-link to="/en">
-        <button class="font-bold hover:underline hover:opacity-50" >EN</button>
+      <nuxt-link to="/">
+        <button class="font-bold hover:underline hover:opacity-50">HR</button>
       </nuxt-link>
     </div>
     <div class="header-content">
-      <img src="../slike-vedras/Group-4.svg" alt="" class="header-img" />
+      <img src="../../slike-vedras/Group-4.svg" alt="" class="header-img" />
       <div class="header-line"></div>
       <h1 class="header-h1 text-scroll-ani">ON HOLD</h1>
       <div class="header-socialMedia">
@@ -32,7 +32,7 @@
         >
           <img
             class="instagram"
-            src="../slike-vedras/instagram-logo-svgrepo-com.svg"
+            src="../../slike-vedras/instagram-logo-svgrepo-com.svg"
             alt=""
           />
         </a>
@@ -45,7 +45,7 @@
         >
           <img
             class="facebook"
-            src="../slike-vedras/facebook-svgrepo-com.svg"
+            src="../../slike-vedras/facebook-svgrepo-com.svg"
             alt=""
           />
         </a>
@@ -58,7 +58,7 @@
         >
           <img
             class="linkedin"
-            src="../slike-vedras/linkedin-logo-svgrepo-com.svg"
+            src="../../slike-vedras/linkedin-logo-svgrepo-com.svg"
             alt=""
           />
         </a>
@@ -74,7 +74,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  background-image: url("../slike-vedras/Group-6.jpg");
+  background-image: url("../../slike-vedras/Group-6.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;

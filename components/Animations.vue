@@ -14,7 +14,7 @@ export function reveal() {
       revealsImage[i].classList.remove("hide");
     } else {
       revealsImage[i].classList.remove("slideInImage");
-      revealsImage[i].classList.remove("hide");
+      revealsImage[i].classList.add("hide");
     }
   }
   var revealsText = document.querySelectorAll(".text-scroll-ani");
