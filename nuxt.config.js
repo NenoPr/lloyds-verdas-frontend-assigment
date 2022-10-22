@@ -4,7 +4,17 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   target: 'static',
   router: {
-    base: '/lloyds-verdas-frontend-assigment/'
+    extendRoutes(routes, resolve) {
+      routes.push({
+        path: '/users/:id',
+        components: {
+          default: resolve(__user, 'pages/users')
+        },
+        chunkNames: {
+          modal: 'components/modal'
+        }
+      })
+    }
   },
   publicPath: '',
   baseURL: ''
