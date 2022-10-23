@@ -15,7 +15,7 @@
       <a class="hover:underline hover:opacity-70" href="tel:385989608920"
         >+385 98 9608 920</a
       >
-      <nuxt-link to="lloyds-verdas-frontend-assigment/">
+      <nuxt-link to="/">
         <button class="font-bold hover:underline hover:opacity-50">HR</button>
       </nuxt-link>
     </div>
