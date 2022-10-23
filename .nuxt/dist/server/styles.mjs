@@ -1,4 +1,4 @@
-import style_0 from './_nuxt/css-styles-1.mjs.bac03619.js';
+import style_0 from './_nuxt/css-styles-1.mjs.c625b8a8.js';
 import style_1 from './_nuxt/ENheaderSection-styles-1.mjs.2b5b64e6.js';
 import style_2 from './_nuxt/ENsection1-styles-1.mjs.f97d3fcd.js';
 import style_3 from './_nuxt/ENsection2-styles-1.mjs.97f15960.js';
@@ -13,11 +13,14 @@ import style_11 from './_nuxt/section3-styles-1.mjs.57f899d7.js';
 import style_12 from './_nuxt/section4-styles-1.mjs.583be135.js';
 import style_13 from './_nuxt/section5-styles-1.mjs.f7465167.js';
 import style_14 from './_nuxt/footerSection-styles-1.mjs.955ca331.js';
+import style_15 from './_nuxt/loading-styles-1.mjs.d743287b.js';
 const interopDefault = r => r.default || r || []
 export default {
-  entry: () => [style_0, style_1, style_2, style_3, style_4, style_5, style_6, style_7, style_8, style_9, style_10, style_11, style_12, style_13, style_14],
+  entry: () => [style_0, style_1, style_2, style_3, style_4, style_5, style_6, style_7, style_8, style_9, style_10, style_11, style_12, style_13, style_14, style_15],
   "pages/en/index.vue": () => import('./_nuxt/index-styles.9cb9d34c.mjs').then(interopDefault),
   "pages/index.vue": () => import('./_nuxt/index-styles.43a70161.mjs').then(interopDefault),
+  "pages/user/[userid].vue": () => import('./_nuxt/_userid_-styles.4674b16e.mjs').then(interopDefault),
+  "pages/user/index.vue": () => import('./_nuxt/index-styles.e700d1d0.mjs').then(interopDefault),
   "components/en/ENheaderSection.vue": () => import('./_nuxt/ENheaderSection-styles.2c5117dc.mjs').then(interopDefault),
   "components/en/ENsection1.vue": () => import('./_nuxt/ENsection1-styles.41ba47d8.mjs').then(interopDefault),
   "components/en/ENsection2.vue": () => import('./_nuxt/ENsection2-styles.1f54043d.mjs').then(interopDefault),
@@ -32,6 +35,7 @@ export default {
   "components/section4.vue": () => import('./_nuxt/section4-styles.85927408.mjs').then(interopDefault),
   "components/section5.vue": () => import('./_nuxt/section5-styles.db11cff3.mjs').then(interopDefault),
   "components/footerSection.vue": () => import('./_nuxt/footerSection-styles.0f27bf79.mjs').then(interopDefault),
+  "components/loading.vue": () => import('./_nuxt/loading-styles.f1c30bf4.mjs').then(interopDefault),
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": () => import('./_nuxt/error-404-styles.3db9fdd2.mjs').then(interopDefault),
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": () => import('./_nuxt/error-500-styles.ad145178.mjs').then(interopDefault)
 }

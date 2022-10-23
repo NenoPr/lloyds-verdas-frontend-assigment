@@ -1,9 +1,21 @@
 const client_manifest = {
-  "assets/Group-4.svg": {
+  "assets/users-bg-front.jpg": {
     "resourceType": "image",
-    "mimeType": "image/svg+xml",
-    "file": "Group-4.c841a4a7.svg",
-    "src": "assets/Group-4.svg"
+    "mimeType": "image/jpeg",
+    "file": "users-bg-front.a37532a8.jpg",
+    "src": "assets/users-bg-front.jpg"
+  },
+  "assets/users-bg-cover.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "users-bg-cover.cf78b4d4.jpg",
+    "src": "assets/users-bg-cover.jpg"
+  },
+  "assets/users-bg.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "users-bg.1aa126f8.jpg",
+    "src": "assets/users-bg.jpg"
   },
   "assets/instagram-logo-svgrepo-com.svg": {
     "resourceType": "image",
@@ -11,23 +23,23 @@ const client_manifest = {
     "file": "instagram-logo-svgrepo-com.7c34ad32.svg",
     "src": "assets/instagram-logo-svgrepo-com.svg"
   },
-  "assets/facebook-svgrepo-com.svg": {
-    "resourceType": "image",
-    "mimeType": "image/svg+xml",
-    "file": "facebook-svgrepo-com.62df866d.svg",
-    "src": "assets/facebook-svgrepo-com.svg"
-  },
   "assets/linkedin-logo-svgrepo-com.svg": {
     "resourceType": "image",
     "mimeType": "image/svg+xml",
     "file": "linkedin-logo-svgrepo-com.6f5531dc.svg",
     "src": "assets/linkedin-logo-svgrepo-com.svg"
   },
-  "assets/UVD-Robots-logo-tagline-black-website.png": {
+  "assets/facebook-svgrepo-com.svg": {
     "resourceType": "image",
-    "mimeType": "image/png",
-    "file": "UVD-Robots-logo-tagline-black-website.250d5fde.png",
-    "src": "assets/UVD-Robots-logo-tagline-black-website.png"
+    "mimeType": "image/svg+xml",
+    "file": "facebook-svgrepo-com.62df866d.svg",
+    "src": "assets/facebook-svgrepo-com.svg"
+  },
+  "assets/Group-4.svg": {
+    "resourceType": "image",
+    "mimeType": "image/svg+xml",
+    "file": "Group-4.c841a4a7.svg",
+    "src": "assets/Group-4.svg"
   },
   "assets/boston-medical-logo-color-jpg.png": {
     "resourceType": "image",
@@ -35,23 +47,29 @@ const client_manifest = {
     "file": "boston-medical-logo-color-jpg.6a865f1d.png",
     "src": "assets/boston-medical-logo-color-jpg.png"
   },
+  "assets/UVD-Robots-logo-tagline-black-website.png": {
+    "resourceType": "image",
+    "mimeType": "image/png",
+    "file": "UVD-Robots-logo-tagline-black-website.250d5fde.png",
+    "src": "assets/UVD-Robots-logo-tagline-black-website.png"
+  },
   "assets/kill-stroj-full.png": {
     "resourceType": "image",
     "mimeType": "image/png",
     "file": "kill-stroj-full.f4044d42.png",
     "src": "assets/kill-stroj-full.png"
   },
-  "assets/tablet.jpg": {
-    "resourceType": "image",
-    "mimeType": "image/jpeg",
-    "file": "tablet.1b2e4670.jpg",
-    "src": "assets/tablet.jpg"
-  },
   "assets/offer-full.png": {
     "resourceType": "image",
     "mimeType": "image/png",
     "file": "offer-full.3c6a0762.png",
     "src": "assets/offer-full.png"
+  },
+  "assets/tablet.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "tablet.1b2e4670.jpg",
+    "src": "assets/tablet.jpg"
   },
   "assets/kill-stroj-stroll.jpg": {
     "resourceType": "image",
@@ -74,7 +92,7 @@ const client_manifest = {
   "node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
-    "file": "entry.8e0900ad.js",
+    "file": "entry.2c355e43.js",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -90,8 +108,8 @@ const client_manifest = {
       "kill-stroj-stroll.58bdeff7.jpg"
     ]
   },
-  "entry.3801684b.css": {
-    "file": "entry.3801684b.css",
+  "entry.c9e38f69.css": {
+    "file": "entry.c9e38f69.css",
     "resourceType": "style"
   },
   "Group-6.129fa9ed.jpg": {
@@ -122,7 +140,7 @@ const client_manifest = {
   "virtual:nuxt:/home/neno/WebProjects/lloyds-verdas-frontend-assigment/.nuxt/error-component.mjs": {
     "resourceType": "script",
     "module": true,
-    "file": "error-component.b43ec0f6.js",
+    "file": "error-component.3bd29ab2.js",
     "src": "virtual:nuxt:/home/neno/WebProjects/lloyds-verdas-frontend-assigment/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -136,7 +154,7 @@ const client_manifest = {
   "pages/en/index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "index.6f77dd68.js",
+    "file": "index.8f90933e.js",
     "src": "pages/en/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -201,7 +219,7 @@ const client_manifest = {
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "index.dac66c6e.js",
+    "file": "index.3cfe30ef.js",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -214,10 +232,73 @@ const client_manifest = {
     "file": "index.77601b49.css",
     "resourceType": "style"
   },
+  "pages/user/[userid].vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "_userid_.76071cbd.js",
+    "src": "pages/user/[userid].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_loading.d34aea4b.js"
+    ],
+    "css": [],
+    "assets": [
+      "users-bg.1aa126f8.jpg",
+      "users-bg-front.a37532a8.jpg",
+      "users-bg-cover.cf78b4d4.jpg"
+    ]
+  },
+  "_userid_.3f609116.css": {
+    "file": "_userid_.3f609116.css",
+    "resourceType": "style"
+  },
+  "users-bg.1aa126f8.jpg": {
+    "file": "users-bg.1aa126f8.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "users-bg-front.a37532a8.jpg": {
+    "file": "users-bg-front.a37532a8.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "users-bg-cover.cf78b4d4.jpg": {
+    "file": "users-bg-cover.cf78b4d4.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "_loading.d34aea4b.js": {
+    "resourceType": "script",
+    "module": true,
+    "file": "loading.d34aea4b.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/user/index.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "index.2284393a.js",
+    "src": "pages/user/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_loading.d34aea4b.js"
+    ],
+    "css": [],
+    "assets": [
+      "users-bg.1aa126f8.jpg"
+    ]
+  },
+  "index.1ccaacc7.css": {
+    "file": "index.1ccaacc7.css",
+    "resourceType": "style"
+  },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "error-404.f485657d.js",
+    "file": "error-404.7b66bccf.js",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -232,7 +313,7 @@ const client_manifest = {
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "error-500.0d8b65ba.js",
+    "file": "error-500.2daf9df2.js",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -244,6 +325,11 @@ const client_manifest = {
     "file": "error-500.e60962de.css",
     "resourceType": "style"
   },
+  "pages/user/[userid].css": {
+    "resourceType": "style",
+    "file": "_userid_.3f609116.css",
+    "src": "pages/user/[userid].css"
+  },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
     "resourceType": "style",
     "file": "error-404.18ced855.css",
@@ -254,25 +340,30 @@ const client_manifest = {
     "file": "index.77601b49.css",
     "src": "pages/index.css"
   },
-  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
+  "pages/user/index.css": {
     "resourceType": "style",
-    "file": "error-500.e60962de.css",
-    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
+    "file": "index.1ccaacc7.css",
+    "src": "pages/user/index.css"
   },
   "pages/en/index.css": {
     "resourceType": "style",
     "file": "index.5a618f36.css",
     "src": "pages/en/index.css"
   },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
+    "resourceType": "style",
+    "file": "error-500.e60962de.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
+  },
   "node_modules/nuxt/dist/app/entry.css": {
     "resourceType": "style",
-    "file": "entry.3801684b.css",
+    "file": "entry.c9e38f69.css",
     "src": "node_modules/nuxt/dist/app/entry.css"
   },
   "entryCSS": {
     "file": "",
     "css": [
-      "entry.3801684b.css"
+      "entry.c9e38f69.css"
     ]
   }
 };

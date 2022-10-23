@@ -1,4 +1,4 @@
-import { defineComponent, h, inject, computed, unref, Suspense, Transition, provide, reactive, getCurrentInstance, ref, resolveComponent, mergeProps, withCtx, createVNode, useSSRContext, shallowRef, createApp, toRef, isRef, defineAsyncComponent, onErrorCaptured, nextTick, watchEffect } from 'file:///home/neno/WebProjects/lloyds-verdas-frontend-assigment/node_modules/vue/index.mjs';
+import { getCurrentInstance, inject, defineComponent, h, computed, unref, Suspense, Transition, provide, reactive, ref, resolveComponent, mergeProps, withCtx, createVNode, useSSRContext, shallowRef, createApp, toRef, isRef, defineAsyncComponent, onErrorCaptured, nextTick, watchEffect } from 'file:///home/neno/WebProjects/lloyds-verdas-frontend-assigment/node_modules/vue/index.mjs';
 import { $fetch } from 'file:///home/neno/WebProjects/lloyds-verdas-frontend-assigment/node_modules/ohmyfetch/dist/node.mjs';
 import { createHooks } from 'file:///home/neno/WebProjects/lloyds-verdas-frontend-assigment/node_modules/hookable/dist/index.mjs';
 import { getContext, executeAsync } from 'file:///home/neno/WebProjects/lloyds-verdas-frontend-assigment/node_modules/unctx/dist/index.mjs';
@@ -937,8 +937,8 @@ const _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const _sfc_main$g = {};
-function _sfc_ssrRender$e(_ctx, _push, _parent, _attrs) {
+const _sfc_main$h = {};
+function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
   const _component_nuxt_link = __nuxt_component_0$3;
   _push(`<section${ssrRenderAttrs(mergeProps({ class: "header" }, _attrs))} data-v-179f42ee><div class="text-white xl:text-base md:text-xs header-contact" data-v-179f42ee><span class="font-bold hidden sm:block" data-v-179f42ee>Contact us</span><a class="hover:underline hover:opacity-70" href="mailto:info@vedras.hr" data-v-179f42ee>info@verdas.hr</a><a class="hover:underline hover:opacity-70" href="tel:385989608920" data-v-179f42ee>+385 98 9608 920</a>`);
   _push(ssrRenderComponent(_component_nuxt_link, { to: "lloyds-verdas-frontend-assigment/" }, {
@@ -955,85 +955,85 @@ function _sfc_ssrRender$e(_ctx, _push, _parent, _attrs) {
   }, _parent));
   _push(`</div><div class="header-content" data-v-179f42ee><img${ssrRenderAttr("src", _imports_0$1)} alt="" class="header-img" data-v-179f42ee><div class="header-line" data-v-179f42ee></div><h1 class="header-h1 text-scroll-ani" data-v-179f42ee>ON HOLD</h1><div class="header-socialMedia" data-v-179f42ee><a href="https://www.instagram.com/vedrasgroup/?hl=en" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-179f42ee><img class="instagram"${ssrRenderAttr("src", _imports_1$1)} alt="" data-v-179f42ee></a><a href="https://www.facebook.com/vedrasevents/" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-179f42ee><img class="facebook"${ssrRenderAttr("src", _imports_2$1)} alt="" data-v-179f42ee></a><a href="https://www.linkedin.com/company/42940956/" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-179f42ee><img class="linkedin"${ssrRenderAttr("src", _imports_3)} alt="" data-v-179f42ee></a></div></div></section>`);
 }
-const _sfc_setup$g = _sfc_main$g.setup;
-_sfc_main$g.setup = (props, ctx) => {
+const _sfc_setup$h = _sfc_main$h.setup;
+_sfc_main$h.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENheaderSection.vue");
-  return _sfc_setup$g ? _sfc_setup$g(props, ctx) : void 0;
+  return _sfc_setup$h ? _sfc_setup$h(props, ctx) : void 0;
 };
-const __nuxt_component_0$2 = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["ssrRender", _sfc_ssrRender$e], ["__scopeId", "data-v-179f42ee"]]);
+const __nuxt_component_0$2 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$f], ["__scopeId", "data-v-179f42ee"]]);
 const _imports_0 = "" + globalThis.__buildAssetsURL("UVD-Robots-logo-tagline-black-website.250d5fde.png");
 const _imports_1 = "" + globalThis.__buildAssetsURL("boston-medical-logo-color-jpg.6a865f1d.png");
 const _imports_2 = "" + globalThis.__buildAssetsURL("kill-stroj-full.f4044d42.png");
+const _sfc_main$g = {};
+function _sfc_ssrRender$e(_ctx, _push, _parent, _attrs) {
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionOne" }, _attrs))} data-v-8fdb303b><div class="sectionOne-info-container text-gray-default text-scroll-ani" data-v-8fdb303b><p class="mt-12" data-v-8fdb303b> In the midst of the current situation with Co-vid19, our \u201Cevent\u201D industry is completely stopped. It is really hard to predict the start of big gatherings and coffee parties that are close to the summer we are used to. Despite the temporary pause of the entire event industry, Vedras does not want to stand aside and wait for this pandemic to end on its own, but as we always do, we are embarking on new ventures and victories. This time around, we are introducing something completely new, something unrelated to our usual business. We present something that will help us combat this pandemic and make everyone return to normal as soon as possible. </p><img${ssrRenderAttr("src", _imports_0)} alt="" class="sectionOne-info-img w-[300px] h-[160px]" data-v-8fdb303b><img${ssrRenderAttr("src", _imports_1)} alt="" class="sectionOne-info-img w-[360px] h-[64px]" data-v-8fdb303b><p class="sectionOne-info-2nd-para pb-8" data-v-8fdb303b> We want to inform you of the availability of a new autonomous UV disinfection robot from the Blue Ocean Robotics company. </p></div><div class="sectionOne-img-container image-scroll-ani" data-v-8fdb303b><img${ssrRenderAttr("src", _imports_2)} alt="kill stroj" class="killer-robot" data-v-8fdb303b><div class="sectionOne-infoPanel bg-blue-default" data-v-8fdb303b><p data-v-8fdb303b>KILLS 99,99% MICROORGANISAMS</p></div></div></section>`);
+}
+const _sfc_setup$g = _sfc_main$g.setup;
+_sfc_main$g.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENsection1.vue");
+  return _sfc_setup$g ? _sfc_setup$g(props, ctx) : void 0;
+};
+const __nuxt_component_1$2 = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["ssrRender", _sfc_ssrRender$e], ["__scopeId", "data-v-8fdb303b"]]);
 const _sfc_main$f = {};
 function _sfc_ssrRender$d(_ctx, _push, _parent, _attrs) {
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionOne" }, _attrs))} data-v-8fdb303b><div class="sectionOne-info-container text-gray-default text-scroll-ani" data-v-8fdb303b><p class="mt-12" data-v-8fdb303b> In the midst of the current situation with Co-vid19, our \u201Cevent\u201D industry is completely stopped. It is really hard to predict the start of big gatherings and coffee parties that are close to the summer we are used to. Despite the temporary pause of the entire event industry, Vedras does not want to stand aside and wait for this pandemic to end on its own, but as we always do, we are embarking on new ventures and victories. This time around, we are introducing something completely new, something unrelated to our usual business. We present something that will help us combat this pandemic and make everyone return to normal as soon as possible. </p><img${ssrRenderAttr("src", _imports_0)} alt="" class="sectionOne-info-img w-[300px] h-[160px]" data-v-8fdb303b><img${ssrRenderAttr("src", _imports_1)} alt="" class="sectionOne-info-img w-[360px] h-[64px]" data-v-8fdb303b><p class="sectionOne-info-2nd-para pb-8" data-v-8fdb303b> We want to inform you of the availability of a new autonomous UV disinfection robot from the Blue Ocean Robotics company. </p></div><div class="sectionOne-img-container image-scroll-ani" data-v-8fdb303b><img${ssrRenderAttr("src", _imports_2)} alt="kill stroj" class="killer-robot" data-v-8fdb303b><div class="sectionOne-infoPanel bg-blue-default" data-v-8fdb303b><p data-v-8fdb303b>KILLS 99,99% MICROORGANISAMS</p></div></div></section>`);
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionTwo bg-blue-default" }, _attrs))} data-v-3619a666><div class="sectionTwo-info-container text-white text-base md:text-xl" data-v-3619a666><h2 class="text-2xl md:text-4xl font-bold text-white mb-8 pt-8" data-v-3619a666> New in our offer! </h2><p class="text-white" data-v-3619a666> Secure robot disinfection and sterilization with applications in: </p><ul class="sectionTwo-list text-white font-bold" data-v-3619a666><li data-v-3619a666>Tourism (hotels, apartments, holiday homes, mobile homes ...)</li><li data-v-3619a666>Industry (factories, warehouses, plants ...)</li><li data-v-3619a666> Public places (health centers, kindergartens, schools, colleges, offices, airports, stations, fitness gyms, shopping centers ...) </li></ul><p class="mt-8" data-v-3619a666> Robots designed to clean operating rooms and laboratories are now disinfecting your business and private spaces. </p><a href="http://www.uvd-robots.com/" target="_blank" rel="noreferrer noopener" class="mt-8 font-bold hover:underline text-base md:text-[16px]" data-v-3619a666>More details about UVD Robots</a></div><div class="sectionTwo-img-container image-scroll-ani hide" data-v-3619a666></div></section>`);
 }
 const _sfc_setup$f = _sfc_main$f.setup;
 _sfc_main$f.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENsection1.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENsection2.vue");
   return _sfc_setup$f ? _sfc_setup$f(props, ctx) : void 0;
 };
-const __nuxt_component_1$2 = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["ssrRender", _sfc_ssrRender$d], ["__scopeId", "data-v-8fdb303b"]]);
+const __nuxt_component_2$1 = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["ssrRender", _sfc_ssrRender$d], ["__scopeId", "data-v-3619a666"]]);
 const _sfc_main$e = {};
 function _sfc_ssrRender$c(_ctx, _push, _parent, _attrs) {
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionTwo bg-blue-default" }, _attrs))} data-v-3619a666><div class="sectionTwo-info-container text-white text-base md:text-xl" data-v-3619a666><h2 class="text-2xl md:text-4xl font-bold text-white mb-8 pt-8" data-v-3619a666> New in our offer! </h2><p class="text-white" data-v-3619a666> Secure robot disinfection and sterilization with applications in: </p><ul class="sectionTwo-list text-white font-bold" data-v-3619a666><li data-v-3619a666>Tourism (hotels, apartments, holiday homes, mobile homes ...)</li><li data-v-3619a666>Industry (factories, warehouses, plants ...)</li><li data-v-3619a666> Public places (health centers, kindergartens, schools, colleges, offices, airports, stations, fitness gyms, shopping centers ...) </li></ul><p class="mt-8" data-v-3619a666> Robots designed to clean operating rooms and laboratories are now disinfecting your business and private spaces. </p><a href="http://www.uvd-robots.com/" target="_blank" rel="noreferrer noopener" class="mt-8 font-bold hover:underline text-base md:text-[16px]" data-v-3619a666>More details about UVD Robots</a></div><div class="sectionTwo-img-container image-scroll-ani hide" data-v-3619a666></div></section>`);
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionThree text-gray-default" }, _attrs))} data-v-8d0f69da><div class="sectionThree-img-container image-scroll-ani hide" data-v-8d0f69da></div><div class="sectionThree-info-container text-scroll-ani" data-v-8d0f69da><h2 class="font-bold text-2xl md:text-4xl" data-v-8d0f69da>#covidfree</h2><p data-v-8d0f69da> By applying ultraviolet light (UV, UV-c), the UVD robot destroys the structure of DNA in all microorganisms. </p><p data-v-8d0f69da> With help of robots, we provide a service for cleaning large and small spaces, which in the shortest possible time and autonomously disinfect indoors where safety and \u201Csense of cleanliness\u201D must come first. </p></div></section>`);
 }
 const _sfc_setup$e = _sfc_main$e.setup;
 _sfc_main$e.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENsection2.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENsection3.vue");
   return _sfc_setup$e ? _sfc_setup$e(props, ctx) : void 0;
 };
-const __nuxt_component_2$1 = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["ssrRender", _sfc_ssrRender$c], ["__scopeId", "data-v-3619a666"]]);
+const __nuxt_component_3$1 = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["ssrRender", _sfc_ssrRender$c], ["__scopeId", "data-v-8d0f69da"]]);
 const _sfc_main$d = {};
 function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionThree text-gray-default" }, _attrs))} data-v-8d0f69da><div class="sectionThree-img-container image-scroll-ani hide" data-v-8d0f69da></div><div class="sectionThree-info-container text-scroll-ani" data-v-8d0f69da><h2 class="font-bold text-2xl md:text-4xl" data-v-8d0f69da>#covidfree</h2><p data-v-8d0f69da> By applying ultraviolet light (UV, UV-c), the UVD robot destroys the structure of DNA in all microorganisms. </p><p data-v-8d0f69da> With help of robots, we provide a service for cleaning large and small spaces, which in the shortest possible time and autonomously disinfect indoors where safety and \u201Csense of cleanliness\u201D must come first. </p></div></section>`);
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionFour" }, _attrs))} data-v-1387a077><div class="sectionFour-img-container" data-v-1387a077></div><div class="sectionFour-info-container bg-blue-default" data-v-1387a077><h2 class="text-white font-semibold" data-v-1387a077> You want to provide a secure place to stay or work for your costumers or employees. Search no more and contact us now. Let your spaces be #covidfree </h2></div></section>`);
 }
 const _sfc_setup$d = _sfc_main$d.setup;
 _sfc_main$d.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENsection3.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENsection4.vue");
   return _sfc_setup$d ? _sfc_setup$d(props, ctx) : void 0;
 };
-const __nuxt_component_3$1 = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["ssrRender", _sfc_ssrRender$b], ["__scopeId", "data-v-8d0f69da"]]);
+const __nuxt_component_4$1 = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["ssrRender", _sfc_ssrRender$b], ["__scopeId", "data-v-1387a077"]]);
 const _sfc_main$c = {};
 function _sfc_ssrRender$a(_ctx, _push, _parent, _attrs) {
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionFour" }, _attrs))} data-v-1387a077><div class="sectionFour-img-container" data-v-1387a077></div><div class="sectionFour-info-container bg-blue-default" data-v-1387a077><h2 class="text-white font-semibold" data-v-1387a077> You want to provide a secure place to stay or work for your costumers or employees. Search no more and contact us now. Let your spaces be #covidfree </h2></div></section>`);
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionFive" }, _attrs))} data-v-95633402><div class="sectionFive-info-container image-scroll-ani hide" data-v-95633402><h2 class="font-bold text-gray-default text-2xl md:text-4xl" data-v-95633402> Our staff is ready to provide a service as soon as possible which includes: </h2><ul class="sectionFive-list text-gray-default" data-v-95633402><li data-v-95633402>delivery of UV disinfection robot</li><li data-v-95633402>mapping of the rooms intended for disinfection</li><li data-v-95633402>control of operation during disinfection</li><li data-v-95633402>collection of the UV disinfection robot</li></ul><a href="http://vedras.hr/download/Vedras_dezinfekcija_UVD_Robotima.pdf" target="_blank" rel="noreferrer noopener" data-v-95633402><button class="mt-10 bg-blue-default w-[216px] h-[57px] p-4 text-white border-[1px] border-blue-default hover:bg-white hover:text-blue-default" data-v-95633402> DOWNLOAD BROCHURE </button></a></div><div class="sectionFive-img-container text-scroll-ani hide" data-v-95633402></div></section>`);
 }
 const _sfc_setup$c = _sfc_main$c.setup;
 _sfc_main$c.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENsection4.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENsection5.vue");
   return _sfc_setup$c ? _sfc_setup$c(props, ctx) : void 0;
 };
-const __nuxt_component_4$1 = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["ssrRender", _sfc_ssrRender$a], ["__scopeId", "data-v-1387a077"]]);
+const __nuxt_component_5$1 = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["ssrRender", _sfc_ssrRender$a], ["__scopeId", "data-v-95633402"]]);
 const _sfc_main$b = {};
 function _sfc_ssrRender$9(_ctx, _push, _parent, _attrs) {
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionFive" }, _attrs))} data-v-95633402><div class="sectionFive-info-container image-scroll-ani hide" data-v-95633402><h2 class="font-bold text-gray-default text-2xl md:text-4xl" data-v-95633402> Our staff is ready to provide a service as soon as possible which includes: </h2><ul class="sectionFive-list text-gray-default" data-v-95633402><li data-v-95633402>delivery of UV disinfection robot</li><li data-v-95633402>mapping of the rooms intended for disinfection</li><li data-v-95633402>control of operation during disinfection</li><li data-v-95633402>collection of the UV disinfection robot</li></ul><a href="http://vedras.hr/download/Vedras_dezinfekcija_UVD_Robotima.pdf" target="_blank" rel="noreferrer noopener" data-v-95633402><button class="mt-10 bg-blue-default w-[216px] h-[57px] p-4 text-white border-[1px] border-blue-default hover:bg-white hover:text-blue-default" data-v-95633402> DOWNLOAD BROCHURE </button></a></div><div class="sectionFive-img-container text-scroll-ani hide" data-v-95633402></div></section>`);
+  _push(`<footer${ssrRenderAttrs(mergeProps({ class: "footer bg-blue-default text-4xl text-white" }, _attrs))} data-v-928deed2><p data-v-928deed2>Contact us for more:</p><div data-v-928deed2><a class="font-bold hover:underline" href="mailto:info@verdas.hr" data-v-928deed2>info@vedras.hr</a> or call us <a class="font-bold hover:underline" href="tel:385989608920" data-v-928deed2>+385 98 9608 920</a></div></footer>`);
 }
 const _sfc_setup$b = _sfc_main$b.setup;
 _sfc_main$b.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENsection5.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENfooterSection.vue");
   return _sfc_setup$b ? _sfc_setup$b(props, ctx) : void 0;
 };
-const __nuxt_component_5$1 = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["ssrRender", _sfc_ssrRender$9], ["__scopeId", "data-v-95633402"]]);
-const _sfc_main$a = {};
+const __nuxt_component_6$1 = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["ssrRender", _sfc_ssrRender$9], ["__scopeId", "data-v-928deed2"]]);
+const meta$3 = void 0;
+const _sfc_main$9 = {};
 function _sfc_ssrRender$8(_ctx, _push, _parent, _attrs) {
-  _push(`<footer${ssrRenderAttrs(mergeProps({ class: "footer bg-blue-default text-4xl text-white" }, _attrs))} data-v-928deed2><p data-v-928deed2>Contact us for more:</p><div data-v-928deed2><a class="font-bold hover:underline" href="mailto:info@verdas.hr" data-v-928deed2>info@vedras.hr</a> or call us <a class="font-bold hover:underline" href="tel:385989608920" data-v-928deed2>+385 98 9608 920</a></div></footer>`);
-}
-const _sfc_setup$a = _sfc_main$a.setup;
-_sfc_main$a.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENfooterSection.vue");
-  return _sfc_setup$a ? _sfc_setup$a(props, ctx) : void 0;
-};
-const __nuxt_component_6$1 = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["ssrRender", _sfc_ssrRender$8], ["__scopeId", "data-v-928deed2"]]);
-const meta$1 = void 0;
-const _sfc_main$8 = {};
-function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs) {
   const _component_nuxt_link = __nuxt_component_0$3;
   _push(`<section${ssrRenderAttrs(mergeProps({ class: "header" }, _attrs))} data-v-079a3fe0><div class="text-white xl:text-base md:text-xs header-contact" data-v-079a3fe0><span class="font-bold hidden sm:block" data-v-079a3fe0>Kontaktirajte nas</span><a class="hover:underline hover:opacity-70" href="mailto:info@vedras.hr" data-v-079a3fe0>info@verdas.hr</a><a class="hover:underline hover:opacity-70" href="tel:385989608920" data-v-079a3fe0>+385 98 9608 920</a>`);
   _push(ssrRenderComponent(_component_nuxt_link, { to: "lloyds-verdas-frontend-assigment/en" }, {
@@ -1050,79 +1050,94 @@ function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs) {
   }, _parent));
   _push(`</div><div class="header-content" data-v-079a3fe0><img${ssrRenderAttr("src", _imports_0$1)} alt="" class="header-img" data-v-079a3fe0><div class="header-line" data-v-079a3fe0></div><h1 class="header-h1 text-scroll-ani" data-v-079a3fe0>ON HOLD</h1><div class="header-socialMedia" data-v-079a3fe0><a href="https://www.instagram.com/vedrasgroup/?hl=en" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-079a3fe0><img class="instagram"${ssrRenderAttr("src", _imports_1$1)} alt="" data-v-079a3fe0></a><a href="https://www.facebook.com/vedrasevents/" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-079a3fe0><img class="facebook"${ssrRenderAttr("src", _imports_2$1)} alt="" data-v-079a3fe0></a><a href="https://www.linkedin.com/company/42940956/" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-079a3fe0><img class="linkedin"${ssrRenderAttr("src", _imports_3)} alt="" data-v-079a3fe0></a></div></div></section>`);
 }
+const _sfc_setup$9 = _sfc_main$9.setup;
+_sfc_main$9.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/headerSection.vue");
+  return _sfc_setup$9 ? _sfc_setup$9(props, ctx) : void 0;
+};
+const __nuxt_component_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["ssrRender", _sfc_ssrRender$8], ["__scopeId", "data-v-079a3fe0"]]);
+const _sfc_main$8 = {};
+function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs) {
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionOne" }, _attrs))} data-v-b409c5d8><div class="sectionOne-info-container text-gray-default text-scroll-ani" data-v-b409c5d8><p class="mt-12" data-v-b409c5d8> U jeku trenutne situacije sa Covid-19, na\u0161a je \u201Cevent\u201D bran\u0161a potpuno zaustavljena. Zaista te\u0161ko predvi\u0111amo po\u010Detak velikih okupljanja i zabava kave prili\u010De ljetu na kakvog smo navikli. Unato\u010D privremenoj stanci cijele event industrije, Vedras ne \u017Eeli stajati po strani i \u010Dekati da se ova pandemija sama od sebe zavr\u0161i, ve\u0107 smo kao \u0161to to uvijek \u010Dinimo, krenuli u nove pothvate i pobjede. Ovoga puta predstavljamo ne\u0161to sasvim novo, ne\u0161to \u0161to nije povezano sa na\u0161im uobi\u010Dajenim poslovanjem. Predstavljamo ne\u0161to \u0161to \u0107e nam pomo\u0107i u borbi protiv ove pandemije i u\u010Diniti da se svi \u0161to prije vratimo normalnom \u017Eivotu. </p><img${ssrRenderAttr("src", _imports_0)} alt="" class="sectionOne-info-img w-[300px] h-[160px]" data-v-b409c5d8><img${ssrRenderAttr("src", _imports_1)} alt="" class="sectionOne-info-img w-[360px] h-[64px]" data-v-b409c5d8><p class="sectionOne-info-2nd-para pb-8" data-v-b409c5d8> Vedras d.o.o. Vas ovim putem \u017Eeli informirati o dostupnosti autonomnog UV-dezinfekcijskog robota tvrtke Blue Ocean Robotics. </p></div><div class="sectionOne-img-container image-scroll-ani" data-v-b409c5d8><img${ssrRenderAttr("src", _imports_2)} alt="kill stroj" class="killer-robot" data-v-b409c5d8><div class="sectionOne-infoPanel bg-blue-default" data-v-b409c5d8><p data-v-b409c5d8>UBIJA 99,99% MIKROORGANIZAMA</p></div></div></section>`);
+}
 const _sfc_setup$8 = _sfc_main$8.setup;
 _sfc_main$8.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/headerSection.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/section1.vue");
   return _sfc_setup$8 ? _sfc_setup$8(props, ctx) : void 0;
 };
-const __nuxt_component_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["ssrRender", _sfc_ssrRender$7], ["__scopeId", "data-v-079a3fe0"]]);
+const __nuxt_component_1$1 = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["ssrRender", _sfc_ssrRender$7], ["__scopeId", "data-v-b409c5d8"]]);
 const _sfc_main$7 = {};
 function _sfc_ssrRender$6(_ctx, _push, _parent, _attrs) {
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionOne" }, _attrs))} data-v-b409c5d8><div class="sectionOne-info-container text-gray-default text-scroll-ani" data-v-b409c5d8><p class="mt-12" data-v-b409c5d8> U jeku trenutne situacije sa Covid-19, na\u0161a je \u201Cevent\u201D bran\u0161a potpuno zaustavljena. Zaista te\u0161ko predvi\u0111amo po\u010Detak velikih okupljanja i zabava kave prili\u010De ljetu na kakvog smo navikli. Unato\u010D privremenoj stanci cijele event industrije, Vedras ne \u017Eeli stajati po strani i \u010Dekati da se ova pandemija sama od sebe zavr\u0161i, ve\u0107 smo kao \u0161to to uvijek \u010Dinimo, krenuli u nove pothvate i pobjede. Ovoga puta predstavljamo ne\u0161to sasvim novo, ne\u0161to \u0161to nije povezano sa na\u0161im uobi\u010Dajenim poslovanjem. Predstavljamo ne\u0161to \u0161to \u0107e nam pomo\u0107i u borbi protiv ove pandemije i u\u010Diniti da se svi \u0161to prije vratimo normalnom \u017Eivotu. </p><img${ssrRenderAttr("src", _imports_0)} alt="" class="sectionOne-info-img w-[300px] h-[160px]" data-v-b409c5d8><img${ssrRenderAttr("src", _imports_1)} alt="" class="sectionOne-info-img w-[360px] h-[64px]" data-v-b409c5d8><p class="sectionOne-info-2nd-para pb-8" data-v-b409c5d8> Vedras d.o.o. Vas ovim putem \u017Eeli informirati o dostupnosti autonomnog UV-dezinfekcijskog robota tvrtke Blue Ocean Robotics. </p></div><div class="sectionOne-img-container image-scroll-ani" data-v-b409c5d8><img${ssrRenderAttr("src", _imports_2)} alt="kill stroj" class="killer-robot" data-v-b409c5d8><div class="sectionOne-infoPanel bg-blue-default" data-v-b409c5d8><p data-v-b409c5d8>UBIJA 99,99% MIKROORGANIZAMA</p></div></div></section>`);
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionTwo bg-blue-default" }, _attrs))} data-v-4e44263b><div class="sectionTwo-info-container text-white text-base md:text-xl" data-v-4e44263b><h2 class="text-2xl md:text-4xl font-bold text-white mb-8 pt-8" data-v-4e44263b> Novo u na\u0161oj ponudi! </h2><p class="text-white" data-v-4e44263b> Robotska dezinfekcija i sterilizacija prostora s primjenom u: </p><ul class="sectionTwo-list text-white font-bold" data-v-4e44263b><li data-v-4e44263b>Turizmu (hoteli, apartmani, ku\u0107e za odmor, mobilne ku\u0107ice...)</li><li data-v-4e44263b>Industriji (tvornice, skladi\u0161ta, pogoni...)</li><li data-v-4e44263b> Javnim mjestima (domovi zdravlja, vrti\u0107i, \u0161kole, fakulteti, uredi, zra\u010Dne luke, kolodvori, fitness dvorane, \u0161oping centri...) </li></ul><p class="mt-8" data-v-4e44263b> Roboti konstruirani za \u010Di\u0161\u0107enje operacijskih sala i laboratorija, sada dezinficiraju va\u0161e poslovne i privatne prostore. </p><a href="http://www.uvd-robots.com/" target="_blank" rel="noreferrer noopener" class="mt-8 font-bold hover:underline text-base md:text-[16px]" data-v-4e44263b>Vi\u0161e detalja o UVD Robots</a></div><div class="sectionTwo-img-container image-scroll-ani hide" data-v-4e44263b></div></section>`);
 }
 const _sfc_setup$7 = _sfc_main$7.setup;
 _sfc_main$7.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/section1.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/section2.vue");
   return _sfc_setup$7 ? _sfc_setup$7(props, ctx) : void 0;
 };
-const __nuxt_component_1$1 = /* @__PURE__ */ _export_sfc(_sfc_main$7, [["ssrRender", _sfc_ssrRender$6], ["__scopeId", "data-v-b409c5d8"]]);
+const __nuxt_component_2 = /* @__PURE__ */ _export_sfc(_sfc_main$7, [["ssrRender", _sfc_ssrRender$6], ["__scopeId", "data-v-4e44263b"]]);
 const _sfc_main$6 = {};
 function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs) {
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionTwo bg-blue-default" }, _attrs))} data-v-4e44263b><div class="sectionTwo-info-container text-white text-base md:text-xl" data-v-4e44263b><h2 class="text-2xl md:text-4xl font-bold text-white mb-8 pt-8" data-v-4e44263b> Novo u na\u0161oj ponudi! </h2><p class="text-white" data-v-4e44263b> Robotska dezinfekcija i sterilizacija prostora s primjenom u: </p><ul class="sectionTwo-list text-white font-bold" data-v-4e44263b><li data-v-4e44263b>Turizmu (hoteli, apartmani, ku\u0107e za odmor, mobilne ku\u0107ice...)</li><li data-v-4e44263b>Industriji (tvornice, skladi\u0161ta, pogoni...)</li><li data-v-4e44263b> Javnim mjestima (domovi zdravlja, vrti\u0107i, \u0161kole, fakulteti, uredi, zra\u010Dne luke, kolodvori, fitness dvorane, \u0161oping centri...) </li></ul><p class="mt-8" data-v-4e44263b> Roboti konstruirani za \u010Di\u0161\u0107enje operacijskih sala i laboratorija, sada dezinficiraju va\u0161e poslovne i privatne prostore. </p><a href="http://www.uvd-robots.com/" target="_blank" rel="noreferrer noopener" class="mt-8 font-bold hover:underline text-base md:text-[16px]" data-v-4e44263b>Vi\u0161e detalja o UVD Robots</a></div><div class="sectionTwo-img-container image-scroll-ani hide" data-v-4e44263b></div></section>`);
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionThree text-gray-default" }, _attrs))} data-v-00e676fc><div class="sectionThree-img-container image-scroll-ani hide" data-v-00e676fc></div><div class="sectionThree-info-container text-scroll-ani" data-v-00e676fc><h2 class="font-bold text-2xl md:text-4xl" data-v-00e676fc>#covidfree</h2><p data-v-00e676fc> Primjenom Ultraljubi\u010Dastog svjetla, (ultravioletnog, UV-c), UVD-robot uni\u0161tava strukturu DNA u svim mikroorganizmima. </p><p data-v-00e676fc> Pru\u017Eamo uslugu \u010Di\u0161\u0107enja velikih i malih prostora, uz pomo\u0107 robota, koji u najkra\u0107em mogu\u0107em roku i autonomno dezinficiraju zatvorene prostore gdje sigurnost i \u201Cosje\u0107aj \u010Disto\u0107e\u201D mora biti na prvom mjestu. </p></div></section>`);
 }
 const _sfc_setup$6 = _sfc_main$6.setup;
 _sfc_main$6.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/section2.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/section3.vue");
   return _sfc_setup$6 ? _sfc_setup$6(props, ctx) : void 0;
 };
-const __nuxt_component_2 = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["ssrRender", _sfc_ssrRender$5], ["__scopeId", "data-v-4e44263b"]]);
+const __nuxt_component_3 = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["ssrRender", _sfc_ssrRender$5], ["__scopeId", "data-v-00e676fc"]]);
 const _sfc_main$5 = {};
 function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionThree text-gray-default" }, _attrs))} data-v-00e676fc><div class="sectionThree-img-container image-scroll-ani hide" data-v-00e676fc></div><div class="sectionThree-info-container text-scroll-ani" data-v-00e676fc><h2 class="font-bold text-2xl md:text-4xl" data-v-00e676fc>#covidfree</h2><p data-v-00e676fc> Primjenom Ultraljubi\u010Dastog svjetla, (ultravioletnog, UV-c), UVD-robot uni\u0161tava strukturu DNA u svim mikroorganizmima. </p><p data-v-00e676fc> Pru\u017Eamo uslugu \u010Di\u0161\u0107enja velikih i malih prostora, uz pomo\u0107 robota, koji u najkra\u0107em mogu\u0107em roku i autonomno dezinficiraju zatvorene prostore gdje sigurnost i \u201Cosje\u0107aj \u010Disto\u0107e\u201D mora biti na prvom mjestu. </p></div></section>`);
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionFour" }, _attrs))} data-v-4c9cfbcc><div class="sectionFour-img-container" data-v-4c9cfbcc></div><div class="sectionFour-info-container bg-blue-default" data-v-4c9cfbcc><h2 class="text-white font-semibold" data-v-4c9cfbcc> \u017Delite va\u0161im klijentima i zaposlenicima pru\u017Eiti potpuno \u010Dist prostor? Kontaktirajte nas odmah, neka va\u0161 prostor bude #covidfree! </h2></div></section>`);
 }
 const _sfc_setup$5 = _sfc_main$5.setup;
 _sfc_main$5.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/section3.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/section4.vue");
   return _sfc_setup$5 ? _sfc_setup$5(props, ctx) : void 0;
 };
-const __nuxt_component_3 = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["ssrRender", _sfc_ssrRender$4], ["__scopeId", "data-v-00e676fc"]]);
+const __nuxt_component_4 = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["ssrRender", _sfc_ssrRender$4], ["__scopeId", "data-v-4c9cfbcc"]]);
 const _sfc_main$4 = {};
 function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionFour" }, _attrs))} data-v-4c9cfbcc><div class="sectionFour-img-container" data-v-4c9cfbcc></div><div class="sectionFour-info-container bg-blue-default" data-v-4c9cfbcc><h2 class="text-white font-semibold" data-v-4c9cfbcc> \u017Delite va\u0161im klijentima i zaposlenicima pru\u017Eiti potpuno \u010Dist prostor? Kontaktirajte nas odmah, neka va\u0161 prostor bude #covidfree! </h2></div></section>`);
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionFive" }, _attrs))} data-v-ca3ab0ec><div class="sectionFive-info-container image-scroll-ani hide" data-v-ca3ab0ec><h2 class="font-bold text-gray-default text-2xl md:text-4xl" data-v-ca3ab0ec> Na\u0161e tehni\u010Dko osoblje spremno je u najkra\u0107em mogu\u0107em roku izvr\u0161iti uslugu koja uklju\u010Duje: </h2><ul class="sectionFive-list text-gray-default" data-v-ca3ab0ec><li data-v-ca3ab0ec>dopremu UV-dezinfekcijskog robota</li><li data-v-ca3ab0ec>mapiranje prostorija predvi\u0111enih za dezinfekciju</li><li data-v-ca3ab0ec>kontrolu rada tijekom dezinfekcije</li><li data-v-ca3ab0ec>otpremu UV-dezinfekcijskog robota</li></ul><a href="http://vedras.hr/download/Vedras_dezinfekcija_UVD_Robotima.pdf" target="_blank" rel="noreferrer noopener" data-v-ca3ab0ec><button class="mt-10 bg-blue-default w-[216px] h-[57px] p-4 text-white border-[1px] border-blue-default hover:bg-white hover:text-blue-default" data-v-ca3ab0ec> PREUZMI BRO\u0160URU </button></a></div><div class="sectionFive-img-container text-scroll-ani hide" data-v-ca3ab0ec></div></section>`);
 }
 const _sfc_setup$4 = _sfc_main$4.setup;
 _sfc_main$4.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/section4.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/section5.vue");
   return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
 };
-const __nuxt_component_4 = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["ssrRender", _sfc_ssrRender$3], ["__scopeId", "data-v-4c9cfbcc"]]);
+const __nuxt_component_5 = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["ssrRender", _sfc_ssrRender$3], ["__scopeId", "data-v-ca3ab0ec"]]);
 const _sfc_main$3 = {};
 function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "sectionFive" }, _attrs))} data-v-ca3ab0ec><div class="sectionFive-info-container image-scroll-ani hide" data-v-ca3ab0ec><h2 class="font-bold text-gray-default text-2xl md:text-4xl" data-v-ca3ab0ec> Na\u0161e tehni\u010Dko osoblje spremno je u najkra\u0107em mogu\u0107em roku izvr\u0161iti uslugu koja uklju\u010Duje: </h2><ul class="sectionFive-list text-gray-default" data-v-ca3ab0ec><li data-v-ca3ab0ec>dopremu UV-dezinfekcijskog robota</li><li data-v-ca3ab0ec>mapiranje prostorija predvi\u0111enih za dezinfekciju</li><li data-v-ca3ab0ec>kontrolu rada tijekom dezinfekcije</li><li data-v-ca3ab0ec>otpremu UV-dezinfekcijskog robota</li></ul><a href="http://vedras.hr/download/Vedras_dezinfekcija_UVD_Robotima.pdf" target="_blank" rel="noreferrer noopener" data-v-ca3ab0ec><button class="mt-10 bg-blue-default w-[216px] h-[57px] p-4 text-white border-[1px] border-blue-default hover:bg-white hover:text-blue-default" data-v-ca3ab0ec> PREUZMI BRO\u0160URU </button></a></div><div class="sectionFive-img-container text-scroll-ani hide" data-v-ca3ab0ec></div></section>`);
+  _push(`<footer${ssrRenderAttrs(mergeProps({ class: "footer bg-blue-default text-4xl text-white" }, _attrs))} data-v-c9646182><p data-v-c9646182>Za vi\u0161e informacija pi\u0161ite nam na mail:</p><div data-v-c9646182><a class="font-bold hover:underline" href="mailto:info@verdas.hr" data-v-c9646182>info@vedras.hr</a> ili nazovite broj <a class="font-bold hover:underline" href="tel:385989608920" data-v-c9646182>+385 98 9608 920</a></div></footer>`);
 }
 const _sfc_setup$3 = _sfc_main$3.setup;
 _sfc_main$3.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/section5.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/footerSection.vue");
   return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
 };
-const __nuxt_component_5 = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["ssrRender", _sfc_ssrRender$2], ["__scopeId", "data-v-ca3ab0ec"]]);
-const _sfc_main$2 = {};
-function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
-  _push(`<footer${ssrRenderAttrs(mergeProps({ class: "footer bg-blue-default text-4xl text-white" }, _attrs))} data-v-c9646182><p data-v-c9646182>Za vi\u0161e informacija pi\u0161ite nam na mail:</p><div data-v-c9646182><a class="font-bold hover:underline" href="mailto:info@verdas.hr" data-v-c9646182>info@vedras.hr</a> ili nazovite broj <a class="font-bold hover:underline" href="tel:385989608920" data-v-c9646182>+385 98 9608 920</a></div></footer>`);
+const __nuxt_component_6 = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["ssrRender", _sfc_ssrRender$2], ["__scopeId", "data-v-c9646182"]]);
+const meta$2 = void 0;
+const _sfc_main$2 = {
+  name: "LoadingComponent"
+};
+function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)} data-v-c59e24bc><div class="loading" data-v-c59e24bc><span data-v-c59e24bc></span><div class="loading-word" data-v-c59e24bc>Loading...</div></div></div>`);
 }
 const _sfc_setup$2 = _sfc_main$2.setup;
 _sfc_main$2.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/footerSection.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/loading.vue");
   return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
 };
-const __nuxt_component_6 = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["ssrRender", _sfc_ssrRender$1], ["__scopeId", "data-v-c9646182"]]);
+const loading = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["ssrRender", _sfc_ssrRender$1], ["__scopeId", "data-v-c59e24bc"]]);
+const meta$1 = void 0;
 const meta = void 0;
 const _routes = [
   {
@@ -1130,20 +1145,40 @@ const _routes = [
     path: "/en",
     file: "/home/neno/WebProjects/lloyds-verdas-frontend-assigment/pages/en/index.vue",
     children: [],
-    meta: meta$1,
+    meta: meta$3,
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index.d9c2fb85.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index.7c8fb24b.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
     path: "/",
     file: "/home/neno/WebProjects/lloyds-verdas-frontend-assigment/pages/index.vue",
     children: [],
+    meta: meta$2,
+    alias: [],
+    redirect: void 0,
+    component: () => import('./_nuxt/index.ceb02a34.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "user-userid",
+    path: "/user/:userid",
+    file: "/home/neno/WebProjects/lloyds-verdas-frontend-assigment/pages/user/[userid].vue",
+    children: [],
+    meta: meta$1,
+    alias: [],
+    redirect: void 0,
+    component: () => import('./_nuxt/_userid_.b9ad8d4e.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "user",
+    path: "/user",
+    file: "/home/neno/WebProjects/lloyds-verdas-frontend-assigment/pages/user/index.vue",
+    children: [],
     meta,
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index.a4c75fc1.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index.6e124904.mjs').then((m) => m.default || m)
   }
 ];
 const configRouterOptions = {};
@@ -1329,7 +1364,7 @@ const _sfc_main$1 = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const ErrorComponent = defineAsyncComponent(() => import('./_nuxt/error-component.9bf52397.mjs').then((r) => r.default || r));
+    const ErrorComponent = defineAsyncComponent(() => import('./_nuxt/error-component.109cdaee.mjs').then((r) => r.default || r));
     const nuxtApp = useNuxtApp();
     nuxtApp.deferHydration();
     provide("_route", useRoute());
@@ -1542,5 +1577,5 @@ const plugins = normalizePlugins(_plugins);
 }
 const entry$1 = (ctx) => entry(ctx);
 
-export { _export_sfc as _, __nuxt_component_0$2 as a, __nuxt_component_1$2 as b, __nuxt_component_2$1 as c, __nuxt_component_3$1 as d, entry$1 as default, __nuxt_component_4$1 as e, __nuxt_component_5$1 as f, __nuxt_component_6$1 as g, __nuxt_component_0$1 as h, __nuxt_component_1$1 as i, __nuxt_component_2 as j, __nuxt_component_3 as k, __nuxt_component_4 as l, __nuxt_component_5 as m, __nuxt_component_6 as n, __nuxt_component_0$3 as o, useHead as u };
+export { _export_sfc as _, __nuxt_component_0$2 as a, __nuxt_component_1$2 as b, __nuxt_component_2$1 as c, __nuxt_component_3$1 as d, entry$1 as default, __nuxt_component_4$1 as e, __nuxt_component_5$1 as f, __nuxt_component_6$1 as g, __nuxt_component_0$1 as h, __nuxt_component_1$1 as i, __nuxt_component_2 as j, __nuxt_component_3 as k, __nuxt_component_4 as l, __nuxt_component_5 as m, __nuxt_component_6 as n, loading as o, __nuxt_component_0$3 as p, useHead as q, useRoute as u };
 //# sourceMappingURL=server.mjs.map

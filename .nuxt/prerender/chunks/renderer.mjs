@@ -292,7 +292,7 @@ globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
 const getClientManifest = () => import('./app/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getServerEntry = () => import('./app/server.mjs').then((r) => r.default || r);
-const getSSRStyles = () => import('./app/styles.mjs').then(function (n) { return n.m; }).then((r) => r.default || r);
+const getSSRStyles = () => import('./app/styles.mjs').then(function (n) { return n.n; }).then((r) => r.default || r);
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
   if (!manifest) {
