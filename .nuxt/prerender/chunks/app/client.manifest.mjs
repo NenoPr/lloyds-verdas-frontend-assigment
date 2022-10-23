@@ -1,39 +1,15 @@
 const client_manifest = {
-  "assets/users-bg-front.jpg": {
-    "resourceType": "image",
-    "mimeType": "image/jpeg",
-    "file": "users-bg-front.a37532a8.jpg",
-    "src": "assets/users-bg-front.jpg"
-  },
   "assets/users-bg-cover.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
     "file": "users-bg-cover.cf78b4d4.jpg",
     "src": "assets/users-bg-cover.jpg"
   },
-  "assets/users-bg.jpg": {
+  "assets/users-bg-front.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
-    "file": "users-bg.1aa126f8.jpg",
-    "src": "assets/users-bg.jpg"
-  },
-  "assets/instagram-logo-svgrepo-com.svg": {
-    "resourceType": "image",
-    "mimeType": "image/svg+xml",
-    "file": "instagram-logo-svgrepo-com.7c34ad32.svg",
-    "src": "assets/instagram-logo-svgrepo-com.svg"
-  },
-  "assets/linkedin-logo-svgrepo-com.svg": {
-    "resourceType": "image",
-    "mimeType": "image/svg+xml",
-    "file": "linkedin-logo-svgrepo-com.6f5531dc.svg",
-    "src": "assets/linkedin-logo-svgrepo-com.svg"
-  },
-  "assets/facebook-svgrepo-com.svg": {
-    "resourceType": "image",
-    "mimeType": "image/svg+xml",
-    "file": "facebook-svgrepo-com.62df866d.svg",
-    "src": "assets/facebook-svgrepo-com.svg"
+    "file": "users-bg-front.a37532a8.jpg",
+    "src": "assets/users-bg-front.jpg"
   },
   "assets/Group-4.svg": {
     "resourceType": "image",
@@ -41,17 +17,41 @@ const client_manifest = {
     "file": "Group-4.c841a4a7.svg",
     "src": "assets/Group-4.svg"
   },
-  "assets/boston-medical-logo-color-jpg.png": {
+  "assets/instagram-logo-svgrepo-com.svg": {
     "resourceType": "image",
-    "mimeType": "image/png",
-    "file": "boston-medical-logo-color-jpg.6a865f1d.png",
-    "src": "assets/boston-medical-logo-color-jpg.png"
+    "mimeType": "image/svg+xml",
+    "file": "instagram-logo-svgrepo-com.7c34ad32.svg",
+    "src": "assets/instagram-logo-svgrepo-com.svg"
+  },
+  "assets/facebook-svgrepo-com.svg": {
+    "resourceType": "image",
+    "mimeType": "image/svg+xml",
+    "file": "facebook-svgrepo-com.62df866d.svg",
+    "src": "assets/facebook-svgrepo-com.svg"
+  },
+  "assets/users-bg.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "users-bg.1aa126f8.jpg",
+    "src": "assets/users-bg.jpg"
+  },
+  "assets/linkedin-logo-svgrepo-com.svg": {
+    "resourceType": "image",
+    "mimeType": "image/svg+xml",
+    "file": "linkedin-logo-svgrepo-com.6f5531dc.svg",
+    "src": "assets/linkedin-logo-svgrepo-com.svg"
   },
   "assets/UVD-Robots-logo-tagline-black-website.png": {
     "resourceType": "image",
     "mimeType": "image/png",
     "file": "UVD-Robots-logo-tagline-black-website.250d5fde.png",
     "src": "assets/UVD-Robots-logo-tagline-black-website.png"
+  },
+  "assets/boston-medical-logo-color-jpg.png": {
+    "resourceType": "image",
+    "mimeType": "image/png",
+    "file": "boston-medical-logo-color-jpg.6a865f1d.png",
+    "src": "assets/boston-medical-logo-color-jpg.png"
   },
   "assets/kill-stroj-full.png": {
     "resourceType": "image",
@@ -325,35 +325,35 @@ const client_manifest = {
     "file": "error-500.e60962de.css",
     "resourceType": "style"
   },
-  "pages/user/[userid].css": {
+  "pages/user/index.css": {
     "resourceType": "style",
-    "file": "_userid_.3f609116.css",
-    "src": "pages/user/[userid].css"
+    "file": "index.1ccaacc7.css",
+    "src": "pages/user/index.css"
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
     "resourceType": "style",
     "file": "error-404.18ced855.css",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
   },
-  "pages/index.css": {
-    "resourceType": "style",
-    "file": "index.77601b49.css",
-    "src": "pages/index.css"
-  },
-  "pages/user/index.css": {
-    "resourceType": "style",
-    "file": "index.1ccaacc7.css",
-    "src": "pages/user/index.css"
-  },
   "pages/en/index.css": {
     "resourceType": "style",
     "file": "index.5a618f36.css",
     "src": "pages/en/index.css"
   },
+  "pages/user/[userid].css": {
+    "resourceType": "style",
+    "file": "_userid_.3f609116.css",
+    "src": "pages/user/[userid].css"
+  },
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
     "resourceType": "style",
     "file": "error-500.e60962de.css",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
+  },
+  "pages/index.css": {
+    "resourceType": "style",
+    "file": "index.77601b49.css",
+    "src": "pages/index.css"
   },
   "node_modules/nuxt/dist/app/entry.css": {
     "resourceType": "style",
