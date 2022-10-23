@@ -924,7 +924,7 @@ const _imports_0$1 = "" + globalThis.__buildAssetsURL("Group-4.c841a4a7.svg");
 const _imports_1$1 = "" + globalThis.__buildAssetsURL("instagram-logo-svgrepo-com.7c34ad32.svg");
 const _imports_2$1 = "" + globalThis.__buildAssetsURL("facebook-svgrepo-com.62df866d.svg");
 const _imports_3 = "" + globalThis.__buildAssetsURL("linkedin-logo-svgrepo-com.6f5531dc.svg");
-const ENheaderSection_vue_vue_type_style_index_0_scoped_60d61ebc_lang = "";
+const ENheaderSection_vue_vue_type_style_index_0_scoped_3df284d6_lang = "";
 const _export_sfc = (sfc, props) => {
   const target = sfc.__vccOpts || sfc;
   for (const [key, val] of props) {
@@ -935,11 +935,11 @@ const _export_sfc = (sfc, props) => {
 const _sfc_main$h = {};
 function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
   const _component_nuxt_link = __nuxt_component_0$3;
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "header" }, _attrs))} data-v-60d61ebc><div class="text-white xl:text-base md:text-xs header-contact" data-v-60d61ebc><span class="font-bold hidden sm:block" data-v-60d61ebc>Contact us</span><a class="hover:underline hover:opacity-70" href="mailto:info@vedras.hr" data-v-60d61ebc>info@verdas.hr</a><a class="hover:underline hover:opacity-70" href="tel:385989608920" data-v-60d61ebc>+385 98 9608 920</a>`);
-  _push(ssrRenderComponent(_component_nuxt_link, { to: "/" }, {
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "header" }, _attrs))} data-v-3df284d6><div class="text-white xl:text-base md:text-xs header-contact" data-v-3df284d6><span class="font-bold hidden sm:block" data-v-3df284d6>Contact us</span><a class="hover:underline hover:opacity-70" href="mailto:info@vedras.hr" data-v-3df284d6>info@verdas.hr</a><a class="hover:underline hover:opacity-70" href="tel:385989608920" data-v-3df284d6>+385 98 9608 920</a>`);
+  _push(ssrRenderComponent(_component_nuxt_link, { to: "/lloyds-verdas-frontend-assigment" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
-        _push2(`<button class="font-bold hover:underline hover:opacity-50" data-v-60d61ebc${_scopeId}>HR</button>`);
+        _push2(`<button class="font-bold hover:underline hover:opacity-50" data-v-3df284d6${_scopeId}>HR</button>`);
       } else {
         return [
           createVNode("button", { class: "font-bold hover:underline hover:opacity-50" }, "HR")
@@ -948,7 +948,7 @@ function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</div><div class="header-content" data-v-60d61ebc><img${ssrRenderAttr("src", _imports_0$1)} alt="" class="header-img" data-v-60d61ebc><div class="header-line" data-v-60d61ebc></div><h1 class="header-h1 text-scroll-ani" data-v-60d61ebc>ON HOLD</h1><div class="header-socialMedia" data-v-60d61ebc><a href="https://www.instagram.com/vedrasgroup/?hl=en" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-60d61ebc><img class="instagram"${ssrRenderAttr("src", _imports_1$1)} alt="" data-v-60d61ebc></a><a href="https://www.facebook.com/vedrasevents/" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-60d61ebc><img class="facebook"${ssrRenderAttr("src", _imports_2$1)} alt="" data-v-60d61ebc></a><a href="https://www.linkedin.com/company/42940956/" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-60d61ebc><img class="linkedin"${ssrRenderAttr("src", _imports_3)} alt="" data-v-60d61ebc></a></div></div></section>`);
+  _push(`</div><div class="header-content" data-v-3df284d6><img${ssrRenderAttr("src", _imports_0$1)} alt="" class="header-img" data-v-3df284d6><div class="header-line" data-v-3df284d6></div><h1 class="header-h1 text-scroll-ani" data-v-3df284d6>ON HOLD</h1><div class="header-socialMedia" data-v-3df284d6><a href="https://www.instagram.com/vedrasgroup/?hl=en" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-3df284d6><img class="instagram"${ssrRenderAttr("src", _imports_1$1)} alt="" data-v-3df284d6></a><a href="https://www.facebook.com/vedrasevents/" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-3df284d6><img class="facebook"${ssrRenderAttr("src", _imports_2$1)} alt="" data-v-3df284d6></a><a href="https://www.linkedin.com/company/42940956/" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-3df284d6><img class="linkedin"${ssrRenderAttr("src", _imports_3)} alt="" data-v-3df284d6></a></div></div></section>`);
 }
 const _sfc_setup$h = _sfc_main$h.setup;
 _sfc_main$h.setup = (props, ctx) => {
@@ -956,7 +956,7 @@ _sfc_main$h.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/en/ENheaderSection.vue");
   return _sfc_setup$h ? _sfc_setup$h(props, ctx) : void 0;
 };
-const __nuxt_component_0$2 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$f], ["__scopeId", "data-v-60d61ebc"]]);
+const __nuxt_component_0$2 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$f], ["__scopeId", "data-v-3df284d6"]]);
 const _imports_0 = "" + globalThis.__buildAssetsURL("UVD-Robots-logo-tagline-black-website.250d5fde.png");
 const _imports_1 = "" + globalThis.__buildAssetsURL("boston-medical-logo-color-jpg.6a865f1d.png");
 const _imports_2 = "" + globalThis.__buildAssetsURL("kill-stroj-full.f4044d42.png");
@@ -1040,15 +1040,15 @@ _sfc_main$a.setup = (props, ctx) => {
   return _sfc_setup$a ? _sfc_setup$a(props, ctx) : void 0;
 };
 const meta$3 = void 0;
-const headerSection_vue_vue_type_style_index_0_scoped_914c9a19_lang = "";
+const headerSection_vue_vue_type_style_index_0_scoped_4c7fd2a9_lang = "";
 const _sfc_main$9 = {};
 function _sfc_ssrRender$8(_ctx, _push, _parent, _attrs) {
   const _component_nuxt_link = __nuxt_component_0$3;
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "header" }, _attrs))} data-v-914c9a19><div class="text-white xl:text-base md:text-xs header-contact" data-v-914c9a19><span class="font-bold hidden sm:block" data-v-914c9a19>Kontaktirajte nas</span><a class="hover:underline hover:opacity-70" href="mailto:info@vedras.hr" data-v-914c9a19>info@verdas.hr</a><a class="hover:underline hover:opacity-70" href="tel:385989608920" data-v-914c9a19>+385 98 9608 920</a>`);
-  _push(ssrRenderComponent(_component_nuxt_link, { to: "/en" }, {
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "header" }, _attrs))} data-v-4c7fd2a9><div class="text-white xl:text-base md:text-xs header-contact" data-v-4c7fd2a9><span class="font-bold hidden sm:block" data-v-4c7fd2a9>Kontaktirajte nas</span><a class="hover:underline hover:opacity-70" href="mailto:info@vedras.hr" data-v-4c7fd2a9>info@verdas.hr</a><a class="hover:underline hover:opacity-70" href="tel:385989608920" data-v-4c7fd2a9>+385 98 9608 920</a>`);
+  _push(ssrRenderComponent(_component_nuxt_link, { to: "/lloyds-verdas-frontend-assigment/en" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
-        _push2(`<button class="font-bold hover:underline hover:opacity-50" data-v-914c9a19${_scopeId}>EN</button>`);
+        _push2(`<button class="font-bold hover:underline hover:opacity-50" data-v-4c7fd2a9${_scopeId}>EN</button>`);
       } else {
         return [
           createVNode("button", { class: "font-bold hover:underline hover:opacity-50" }, "EN")
@@ -1057,7 +1057,7 @@ function _sfc_ssrRender$8(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</div><div class="header-content" data-v-914c9a19><img${ssrRenderAttr("src", _imports_0$1)} alt="" class="header-img" data-v-914c9a19><div class="header-line" data-v-914c9a19></div><h1 class="header-h1 text-scroll-ani" data-v-914c9a19>ON HOLD</h1><div class="header-socialMedia" data-v-914c9a19><a href="https://www.instagram.com/vedrasgroup/?hl=en" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-914c9a19><img class="instagram"${ssrRenderAttr("src", _imports_1$1)} alt="" data-v-914c9a19></a><a href="https://www.facebook.com/vedrasevents/" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-914c9a19><img class="facebook"${ssrRenderAttr("src", _imports_2$1)} alt="" data-v-914c9a19></a><a href="https://www.linkedin.com/company/42940956/" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-914c9a19><img class="linkedin"${ssrRenderAttr("src", _imports_3)} alt="" data-v-914c9a19></a></div></div></section>`);
+  _push(`</div><div class="header-content" data-v-4c7fd2a9><img${ssrRenderAttr("src", _imports_0$1)} alt="" class="header-img" data-v-4c7fd2a9><div class="header-line" data-v-4c7fd2a9></div><h1 class="header-h1 text-scroll-ani" data-v-4c7fd2a9>ON HOLD</h1><div class="header-socialMedia" data-v-4c7fd2a9><a href="https://www.instagram.com/vedrasgroup/?hl=en" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-4c7fd2a9><img class="instagram"${ssrRenderAttr("src", _imports_1$1)} alt="" data-v-4c7fd2a9></a><a href="https://www.facebook.com/vedrasevents/" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-4c7fd2a9><img class="facebook"${ssrRenderAttr("src", _imports_2$1)} alt="" data-v-4c7fd2a9></a><a href="https://www.linkedin.com/company/42940956/" target="_blank" rel="noreferrer noopener" class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350" data-v-4c7fd2a9><img class="linkedin"${ssrRenderAttr("src", _imports_3)} alt="" data-v-4c7fd2a9></a></div></div></section>`);
 }
 const _sfc_setup$9 = _sfc_main$9.setup;
 _sfc_main$9.setup = (props, ctx) => {
@@ -1065,7 +1065,7 @@ _sfc_main$9.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/headerSection.vue");
   return _sfc_setup$9 ? _sfc_setup$9(props, ctx) : void 0;
 };
-const __nuxt_component_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["ssrRender", _sfc_ssrRender$8], ["__scopeId", "data-v-914c9a19"]]);
+const __nuxt_component_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["ssrRender", _sfc_ssrRender$8], ["__scopeId", "data-v-4c7fd2a9"]]);
 const section1_vue_vue_type_style_index_0_scoped_b409c5d8_lang = "";
 const _sfc_main$8 = {};
 function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs) {
@@ -1164,7 +1164,7 @@ const _routes = [
     meta: meta$3,
     alias: (meta$3 == null ? void 0 : meta$3.alias) || [],
     redirect: (meta$3 == null ? void 0 : meta$3.redirect) || void 0,
-    component: () => import("./_nuxt/index.dd2e4270.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index.9bb8eb3d.js").then((m) => m.default || m)
   },
   {
     name: "index",
@@ -1174,7 +1174,7 @@ const _routes = [
     meta: meta$2,
     alias: (meta$2 == null ? void 0 : meta$2.alias) || [],
     redirect: (meta$2 == null ? void 0 : meta$2.redirect) || void 0,
-    component: () => import("./_nuxt/index.277ba6e4.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index.dbbcf838.js").then((m) => m.default || m)
   },
   {
     name: "user-userid",
@@ -1184,7 +1184,7 @@ const _routes = [
     meta: meta$1,
     alias: (meta$1 == null ? void 0 : meta$1.alias) || [],
     redirect: (meta$1 == null ? void 0 : meta$1.redirect) || void 0,
-    component: () => import("./_nuxt/_userid_.42e74d5d.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/_userid_.9333cee2.js").then((m) => m.default || m)
   },
   {
     name: "user",
@@ -1194,7 +1194,7 @@ const _routes = [
     meta,
     alias: (meta == null ? void 0 : meta.alias) || [],
     redirect: (meta == null ? void 0 : meta.redirect) || void 0,
-    component: () => import("./_nuxt/index.f1453c24.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index.49e5dd4e.js").then((m) => m.default || m)
   }
 ];
 const configRouterOptions = {};
@@ -1380,7 +1380,7 @@ const _sfc_main$1 = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const ErrorComponent = defineAsyncComponent(() => import("./_nuxt/error-component.6420b0e4.js").then((r) => r.default || r));
+    const ErrorComponent = defineAsyncComponent(() => import("./_nuxt/error-component.a92d63a4.js").then((r) => r.default || r));
     const nuxtApp = useNuxtApp();
     nuxtApp.deferHydration();
     provide("_route", useRoute());
