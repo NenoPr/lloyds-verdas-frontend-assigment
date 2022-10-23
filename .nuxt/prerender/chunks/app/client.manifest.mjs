@@ -11,6 +11,12 @@ const client_manifest = {
     "file": "users-bg-cover.cf78b4d4.jpg",
     "src": "assets/users-bg-cover.jpg"
   },
+  "assets/users-bg.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "users-bg.1aa126f8.jpg",
+    "src": "assets/users-bg.jpg"
+  },
   "assets/Group-4.svg": {
     "resourceType": "image",
     "mimeType": "image/svg+xml",
@@ -34,12 +40,6 @@ const client_manifest = {
     "mimeType": "image/svg+xml",
     "file": "linkedin-logo-svgrepo-com.6f5531dc.svg",
     "src": "assets/linkedin-logo-svgrepo-com.svg"
-  },
-  "assets/users-bg.jpg": {
-    "resourceType": "image",
-    "mimeType": "image/jpeg",
-    "file": "users-bg.1aa126f8.jpg",
-    "src": "assets/users-bg.jpg"
   },
   "assets/UVD-Robots-logo-tagline-black-website.png": {
     "resourceType": "image",
@@ -77,17 +77,17 @@ const client_manifest = {
     "file": "tablet.1b2e4670.jpg",
     "src": "assets/tablet.jpg"
   },
-  "assets/Group-6.jpg": {
-    "resourceType": "image",
-    "mimeType": "image/jpeg",
-    "file": "Group-6.129fa9ed.jpg",
-    "src": "assets/Group-6.jpg"
-  },
   "assets/Group-7.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
     "file": "Group-7.7ba3bf5f.jpg",
     "src": "assets/Group-7.jpg"
+  },
+  "assets/Group-6.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "Group-6.129fa9ed.jpg",
+    "src": "assets/Group-6.jpg"
   },
   "node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
@@ -325,25 +325,25 @@ const client_manifest = {
     "file": "error-500.e60962de.css",
     "resourceType": "style"
   },
-  "pages/en/index.css": {
-    "resourceType": "style",
-    "file": "index.5a618f36.css",
-    "src": "pages/en/index.css"
-  },
   "pages/user/index.css": {
     "resourceType": "style",
     "file": "index.1ccaacc7.css",
     "src": "pages/user/index.css"
   },
-  "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
-    "resourceType": "style",
-    "file": "error-404.18ced855.css",
-    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
-  },
   "pages/user/[userid].css": {
     "resourceType": "style",
     "file": "_userid_.3f609116.css",
     "src": "pages/user/[userid].css"
+  },
+  "pages/en/index.css": {
+    "resourceType": "style",
+    "file": "index.5a618f36.css",
+    "src": "pages/en/index.css"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
+    "resourceType": "style",
+    "file": "error-404.18ced855.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
     "resourceType": "style",
