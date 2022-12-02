@@ -9,11 +9,11 @@
       </select>
     </form> -->
       <span class="font-bold hidden sm:block">Kontaktirajte nas</span>
-      <a class="hover:underline hover:opacity-70" href="mailto:info@vedras.hr"
-        >info@verdas.hr</a
+      <a class="hover:underline hover:opacity-70" href="mailto:info@placeholder.hr"
+        >info@placeholder.com</a
       >
-      <a class="hover:underline hover:opacity-70" href="tel:385989608920"
-        >+385 98 9608 920</a
+      <a class="hover:underline hover:opacity-70" href="tel:3859555555555"
+        >+385 55 5555 555</a
       >
       <nuxt-link to="/en">
         <button class="font-bold hover:underline hover:opacity-50" >EN</button>
@@ -25,7 +25,7 @@
       <h1 class="header-h1 text-scroll-ani">ON HOLD</h1>
       <div class="header-socialMedia">
         <a
-          href="https://www.instagram.com/vedrasgroup/?hl=en"
+          href="https://www.instagram.com/"
           target="_blank"
           rel="noreferrer noopener"
           class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350"
@@ -38,7 +38,7 @@
         </a>
 
         <a
-          href="https://www.facebook.com/vedrasevents/"
+          href="https://www.facebook.com"
           target="_blank"
           rel="noreferrer noopener"
           class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350"
@@ -51,7 +51,7 @@
         </a>
 
         <a
-          href="https://www.linkedin.com/company/42940956/"
+          href="https://www.linkedin.com"
           target="_blank"
           rel="noreferrer noopener"
           class="social-icon hover:cursor-pointer hover:opacity-70 transition ease-in-out duration-350"

@@ -20,12 +20,13 @@
   export default {
     head() {
     return {
-      title: "Verdas | We present something that will help us combat this pandemic and make everyone return to normal as soon as possible. ",
+      // title: "Verdas | We present something that will help us combat this pandemic and make everyone return to normal as soon as possible. ",
+      title: "Responsive Webpage",
       meta: [
         {
           hid: "description",
           name: "description",
-          content: "We present something that will help us combat this pandemic and make everyone return to normal as soon as possible. "
+          content: ""
         }
       ]
     }

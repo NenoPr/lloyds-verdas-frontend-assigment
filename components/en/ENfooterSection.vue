@@ -2,10 +2,11 @@
   <footer class="footer bg-blue-default text-4xl text-white">
     <p>Contact us for more:</p>
     <div>
-      <a class="font-bold hover:underline" href="mailto:info@verdas.hr">info@vedras.hr</a>
+      <a class="font-bold hover:underline" href="mailto:info@placeholder.hr">info@placeholder.hr</a>
       or call us
-      <a class="font-bold hover:underline" href="tel:385989608920">+385 98 9608 920</a>
+      <a class="font-bold hover:underline" href="tel:385555555555">+385 55 5555 555</a>
     </div>
+    <p class="text-white font-bold bg-black text-[2rem] p-[.5rem] rounded-[.5rem]">This is a fake site made as a practice project for educational related purposes from a real web site. This particular site does not offer or sell anything, and is not affiliated to the real site.</p>
   </footer>
 </template>
 

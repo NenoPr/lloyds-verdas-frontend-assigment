@@ -6178,15 +6178,15 @@ module.export = {
   "content": {
     "relative": false,
     "files": [
-      "/home/neno/WebProjects/lloyds-verdas-frontend-assigment/components/**/*.{vue,js,ts}",
-      "/home/neno/WebProjects/lloyds-verdas-frontend-assigment/layouts/**/*.vue",
-      "/home/neno/WebProjects/lloyds-verdas-frontend-assigment/pages/**/*.vue",
-      "/home/neno/WebProjects/lloyds-verdas-frontend-assigment/composables/**/*.{js,ts}",
-      "/home/neno/WebProjects/lloyds-verdas-frontend-assigment/plugins/**/*.{js,ts}",
-      "/home/neno/WebProjects/lloyds-verdas-frontend-assigment/App.{js,ts,vue}",
-      "/home/neno/WebProjects/lloyds-verdas-frontend-assigment/app.{js,ts,vue}",
-      "/home/neno/WebProjects/lloyds-verdas-frontend-assigment/Error.{js,ts,vue}",
-      "/home/neno/WebProjects/lloyds-verdas-frontend-assigment/error.{js,ts,vue}"
+      "/home/neno/WebProjects/Nuxt Projects/lloyds-verdas-frontend-assigment/components/**/*.{vue,js,ts}",
+      "/home/neno/WebProjects/Nuxt Projects/lloyds-verdas-frontend-assigment/layouts/**/*.vue",
+      "/home/neno/WebProjects/Nuxt Projects/lloyds-verdas-frontend-assigment/pages/**/*.vue",
+      "/home/neno/WebProjects/Nuxt Projects/lloyds-verdas-frontend-assigment/composables/**/*.{js,ts}",
+      "/home/neno/WebProjects/Nuxt Projects/lloyds-verdas-frontend-assigment/plugins/**/*.{js,ts}",
+      "/home/neno/WebProjects/Nuxt Projects/lloyds-verdas-frontend-assigment/App.{js,ts,vue}",
+      "/home/neno/WebProjects/Nuxt Projects/lloyds-verdas-frontend-assigment/app.{js,ts,vue}",
+      "/home/neno/WebProjects/Nuxt Projects/lloyds-verdas-frontend-assigment/Error.{js,ts,vue}",
+      "/home/neno/WebProjects/Nuxt Projects/lloyds-verdas-frontend-assigment/error.{js,ts,vue}"
     ],
     "extract": {},
     "transform": {}
